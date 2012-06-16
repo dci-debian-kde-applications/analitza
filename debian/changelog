@@ -9,6 +9,7 @@ analitza (4:4.8.4-0r0) UNRELEASED; urgency=low
     - update Vcs-* fields.
     - source package belongs 'libs' Section.
   * Confirm symbols files on all architectures with 4.7.4 build logs.
+  * Update enable_debianabimanager.diff.
   * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 17:32:13 +0100

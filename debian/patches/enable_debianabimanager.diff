@@ -7,9 +7,10 @@ For more information about DebianABIManager, refer to
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -48,3 +48,5 @@ if (${CMAKE_CURRENT_SOURCE_DIR} STREQUAL
-    macro_display_feature_log()
- endif (${CMAKE_CURRENT_SOURCE_DIR} STREQUAL ${CMAKE_SOURCE_DIR})
- 
+@@ -43,3 +43,6 @@ install( EXPORT AnalitzaTargets
+          DESTINATION "${_analitza_CONFIG_DEST}"
+          NAMESPACE AnalitzaImport__
+          FILE AnalitzaTargets.cmake )
++
 +# Add support for DebianABIManager
 +include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

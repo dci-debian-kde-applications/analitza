@@ -3,6 +3,10 @@ analitza (4:4.8.4-0r0) UNRELEASED; urgency=low
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
+  * Split analitza out of kalgebra:
+    - development package is libanalitza-dev, not kalgebra-dev.
+    - add new package libanalitza-dbg, which breaks and replaces kalgebra-dbg.
+    - update Vcs-* fields.
   * Confirm symbols files on all architectures with 4.7.4 build logs.
   * Add watch file.
 

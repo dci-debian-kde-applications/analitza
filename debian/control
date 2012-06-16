@@ -1,4 +1,4 @@
-Source: kalgebra
+Source: analitza
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -15,46 +15,14 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
  libkdeedu-dev
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kalgebra.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kalgebra.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/analitza.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/analitza.git
 
-Package: kalgebra
-Architecture: any
-Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra-common (= ${binary:Version})
-Breaks: kalgebramobile (<< 4:4.7.2)
-Description: algebraic graphing calculator for KDE
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language.
- .
- This package is part of the KDE education module.
-
-Package: kalgebramobile
-Architecture: any
-Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends},  kalgebra-common (= ${binary:Version})
-Description: algebraic graphing calculator for KDE mobile
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This is the version for KDE mobile.
- .
- This package is part of the KDE education module.
-
-Package: kalgebra-common
-Architecture: any
-Section: math
-Breaks: kalgebra (<< 4:4.7.2)
-Replaces: kalgebra (<< 4:4.7.2)
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: contains files common for kalgebra and kalgebramobile
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language and it contains files needed for both full and mobile
- versions.
- .
- This package is part of the KDE education module.
-
-Package: kalgebra-dev
+Package: libanalitza-dev
 Architecture: any
 Section: libdevel
+Breaks: kalgebra-dev (<< 4:4.8) 
+Replaces: kalgebra-dev (<< 4:4.8) 
 Depends: ${misc:Depends}, libanalitza4 (= ${binary:Version}),
  libanalitzagui4 (= ${binary:Version})
 Description: development files for kalgebra
@@ -89,15 +57,14 @@ Description: library to  work with mathematical expressions - GUI routines
  .
  This package is part of the KDE education module.
 
-Package: kalgebra-dbg
+Package: libanalitza-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends: ${misc:Depends},
- kalgebra (= ${binary:Version}) | kalgebramobile (= ${binary:Version}),
  libanalitza4 (= ${binary:Version}), libanalitzagui4 (= ${binary:Version})
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
+Breaks: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
+Replaces: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
 Description: debugging symbols for the KDE education module
  This package contains debugging files used to investigate problems with
  binaries included in kalgebra.

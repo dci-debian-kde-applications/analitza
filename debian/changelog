@@ -10,6 +10,10 @@ analitza (4:4.8.4-0r0) UNRELEASED; urgency=low
     - source package belongs 'libs' Section.
   * Confirm symbols files on all architectures with 4.7.4 build logs.
   * Update enable_debianabimanager.diff.
+  * Bump build dependencies for KDE SC 4.8.4:
+    - kde-sc-dev-latest to 4.8.4.
+    - kdelibs5-dev to 4.8.
+    - libkdeedu-dev to 4.8.
   * Don't pass -DINSTALL_ANALITZA_HEADERS=TRUE to cmake, not needed anymore.
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Add watch file.

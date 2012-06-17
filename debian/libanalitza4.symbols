@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64
 libanalitza.so.4 libanalitza4 #MINVER#
  ABI_4_0@ABI_4_0 4:4.7.2
  _ZN13AbstractLexer11m_operatorsE@ABI_4_0 4:4.7.2
  _ZN13AbstractLexer15m_longOperatorsE@ABI_4_0 4:4.7.2
+ _ZN13AbstractLexer20isCompleteExpressionEb@ABI_4_0 4:4.8.4
  _ZN13AbstractLexer3lexEv@ABI_4_0 4:4.7.2
  _ZN13AbstractLexerC1ERK7QString@ABI_4_0 4:4.7.2
  _ZN13AbstractLexerC2ERK7QString@ABI_4_0 4:4.7.2
@@ -12,12 +13,16 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN13AnalitzaUtils12objectWalkerERKN8Analitza10ExpressionERK10QByteArray@ABI_4_0 4:4.7.2
  _ZN13AnalitzaUtils19expressionToVariantERKN8Analitza10ExpressionE@ABI_4_0 4:4.7.2
  _ZN13AnalitzaUtils19variantToExpressionERK8QVariant@ABI_4_0 4:4.7.2
+ _ZN13AnalitzaUtils23generateDependencyGraphEPKN8Analitza9VariablesE@ABI_4_0 4:4.8.4
  _ZN16ExpressionParser15reallocateStackEv@ABI_4_0 4:4.7.2
  _ZN16ExpressionParser5parseEP13AbstractLexer@ABI_4_0 4:4.7.2
  _ZN16ExpressionParserC1Ev@ABI_4_0 4:4.7.2
  _ZN16ExpressionParserC2Ev@ABI_4_0 4:4.7.2
  _ZN16ExpressionParserD1Ev@ABI_4_0 4:4.7.2
  _ZN16ExpressionParserD2Ev@ABI_4_0 4:4.7.2
+ _ZN17ImportQMetaObject6importERK11QMetaObject@ABI_4_0 4:4.8.4
+ _ZN17ImportQMetaObjectC1EPN8Analitza8AnalyzerE@ABI_4_0 4:4.8.4
+ _ZN17ImportQMetaObjectC2EPN8Analitza8AnalyzerE@ABI_4_0 4:4.8.4
  _ZN23MathMLPresentationLexer8getTokenEv@ABI_4_0 4:4.7.2
  _ZN23MathMLPresentationLexerC1ERK7QString@ABI_4_0 4:4.7.2
  _ZN23MathMLPresentationLexerC2ERK7QString@ABI_4_0 4:4.7.2
@@ -33,7 +38,8 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza10Expression17ExpressionPrivate5checkEPKNS_9ContainerE@ABI_4_0 4:4.7.2
  _ZN8Analitza10Expression17ExpressionPrivate6branchERK11QDomElement@ABI_4_0 4:4.7.2
  _ZN8Analitza10Expression17ExpressionPrivate6canAddEPKNS_6ObjectES4_@ABI_4_0 4:4.7.2
- _ZN8Analitza10Expression20isCompleteExpressionERK7QString@ABI_4_0 4:4.7.2
+#MISSING: 4:4.8.4# _ZN8Analitza10Expression20isCompleteExpressionERK7QString@ABI_4_0 4:4.7.2
+ _ZN8Analitza10Expression20isCompleteExpressionERK7QStringb@ABI_4_0 4:4.8.4
  _ZN8Analitza10Expression21constructCustomObjectERK8QVariantPFvS3_E@ABI_4_0 4:4.7.2
  _ZN8Analitza10Expression4treeEv@ABI_4_0 4:4.7.2
  _ZN8Analitza10Expression5clearEv@ABI_4_0 4:4.7.2
@@ -55,6 +61,10 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza10ExpressionD1Ev@ABI_4_0 4:4.7.2
  _ZN8Analitza10ExpressionD2Ev@ABI_4_0 4:4.7.2
  _ZN8Analitza10ExpressionaSERKS0_@ABI_4_0 4:4.7.2
+ _ZN8Analitza12CustomObjectC1ERK8QVariantPFvS3_E@ABI_4_0 4:4.8.4
+ _ZN8Analitza12CustomObjectC1ERK8QVariantPFvS3_EPi@ABI_4_0 4:4.8.4
+ _ZN8Analitza12CustomObjectC2ERK8QVariantPFvS3_E@ABI_4_0 4:4.8.4
+ _ZN8Analitza12CustomObjectC2ERK8QVariantPFvS3_EPi@ABI_4_0 4:4.8.4
  _ZN8Analitza12CustomObjectD0Ev@ABI_4_0 4:4.7.2
  _ZN8Analitza12CustomObjectD1Ev@ABI_4_0 4:4.7.2
  _ZN8Analitza12CustomObjectD2Ev@ABI_4_0 4:4.7.2
@@ -76,6 +86,7 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza14ExpressionType16assumptionsUnionER4QMapI7QStringS0_ERKS3_@ABI_4_0 4:4.7.2
  _ZN8Analitza14ExpressionType16clearAssumptionsEv@ABI_4_0 4:4.7.2
  _ZN8Analitza14ExpressionType16matchAssumptionsEP4QMapIiS0_ERKS1_I7QStringS0_ES7_@ABI_4_0 4:4.7.2
+ _ZN8Analitza14ExpressionType16wrongAssumptionsERK4QMapI7QStringS0_ES5_@ABI_4_0 4:4.8.4
  _ZN8Analitza14ExpressionType17removeAssumptionsERK11QStringList@ABI_4_0 4:4.7.2
  _ZN8Analitza14ExpressionType19starsSimplificationERS0_R4QMapIiiERi@ABI_4_0 4:4.7.2
  _ZN8Analitza14ExpressionType6reduceERKS0_@ABI_4_0 4:4.7.2
@@ -92,11 +103,14 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza14ExpressionTypeaSERKS0_@ABI_4_0 4:4.7.2
  _ZN8Analitza21ExpressionTypeChecker10commonTypeERK5QListIPNS_6ObjectEE@ABI_4_0 4:4.7.2
  _ZN8Analitza21ExpressionTypeChecker10typeForVarERK7QString@ABI_4_0 4:4.7.2
- _ZN8Analitza21ExpressionTypeChecker12computePairsERK5QListINS_8TypePairEERKNS_14ExpressionTypeE@ABI_4_0 4:4.7.2
+ _ZN8Analitza21ExpressionTypeChecker12computePairsERK5QListINS_14ExpressionTypeEERKS2_@ABI_4_0 4:4.8.4
+#MISSING: 4:4.8.4# _ZN8Analitza21ExpressionTypeChecker12computePairsERK5QListINS_8TypePairEERKNS_14ExpressionTypeE@ABI_4_0 4:4.7.2
+ _ZN8Analitza21ExpressionTypeChecker16tellTypeIdentityERK7QStringRKNS_14ExpressionTypeE@ABI_4_0 4:4.8.4
  (optional=templinst)_ZN8Analitza21ExpressionTypeChecker18acceptListOrVectorINS_4ListEEE7QStringPKT_NS_14ExpressionType4TypeEi@ABI_4_0 4:4.7.2
  (optional=templinst)_ZN8Analitza21ExpressionTypeChecker18acceptListOrVectorINS_6VectorEEE7QStringPKT_NS_14ExpressionType4TypeEi@ABI_4_0 4:4.7.2
  _ZN8Analitza21ExpressionTypeChecker5checkERKNS_10ExpressionE@ABI_4_0 4:4.7.2
- _ZN8Analitza21ExpressionTypeChecker5solveEPKNS_8OperatorERK5QListIPNS_6ObjectEE@ABI_4_0 4:4.7.2
+#MISSING: 4:4.8.4# _ZN8Analitza21ExpressionTypeChecker5solveEPKNS_8OperatorERK5QListIPNS_6ObjectEE@ABI_4_0 4:4.7.2
+ _ZN8Analitza21ExpressionTypeChecker5solveEPKNS_8OperatorERK7QVectorIPNS_6ObjectEE@ABI_4_0 4:4.8.4
  _ZN8Analitza21ExpressionTypeChecker6acceptEPKNS_12CustomObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza21ExpressionTypeChecker6acceptEPKNS_2CiE@ABI_4_0 4:4.7.2
  _ZN8Analitza21ExpressionTypeChecker6acceptEPKNS_2CnE@ABI_4_0 4:4.7.2
@@ -123,8 +137,11 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza2Cn1eEv@ABI_4_0 4:4.7.2
  _ZN8Analitza2Cn2piEv@ABI_4_0 4:4.7.2
  _ZN8Analitza2Cn5eulerEv@ABI_4_0 4:4.7.2
- _ZN8Analitza2Cn8decorateERK4QMapI7QStringPPNS_6ObjectEE@ABI_4_0 4:4.7.2
+#MISSING: 4:4.8.4# _ZN8Analitza2Cn8decorateERK4QMapI7QStringPPNS_6ObjectEE@ABI_4_0 4:4.7.2
  _ZN8Analitza2Cn8setValueERK11QDomElement@ABI_4_0 4:4.7.2
+ _ZN8Analitza2CnD0Ev@ABI_4_0 4:4.8.4
+ _ZN8Analitza2CnD1Ev@ABI_4_0 4:4.8.4
+ _ZN8Analitza2CnD2Ev@ABI_4_0 4:4.8.4
  _ZN8Analitza4List12appendBranchEPNS_6ObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza4ListC1ERKS0_@ABI_4_0 4:4.7.2
  _ZN8Analitza4ListC1Ev@ABI_4_0 4:4.7.2
@@ -151,6 +168,8 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza6VectorD1Ev@ABI_4_0 4:4.7.2
  _ZN8Analitza6VectorD2Ev@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer10applyAlphaEPNS_6ObjectEi@ABI_4_0 4:4.7.2
+ _ZN8Analitza8Analyzer10calcFilterEPKNS_5ApplyE@ABI_4_0 4:4.8.4
+ _ZN8Analitza8Analyzer10calcLambdaEPKNS_9ContainerE@ABI_4_0 4:4.8.4
  _ZN8Analitza8Analyzer10derivativeERK7QString@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer10derivativeERK7QStringPKNS_6ObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer10derivativeERK7QVectorIPNS_6ObjectEE@ABI_4_0 4:4.7.2
@@ -165,9 +184,9 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza8Analyzer14initBVarsRangeEPKNS_5ApplyEiPNS_6ObjectES5_@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer14insertVariableERK7QStringPKNS_6ObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer14insertVariableERK7QStringRKNS_10ExpressionE@ABI_4_0 4:4.7.2
- (optional=templinst|arch=mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_4ListEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
+ (optional=templinst|arch=amd64 mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_4ListEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
  (optional=templinst|arch=mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_6VectorEPPNS_6ObjectEEEvPT_@ABI_4_0 4:4.7.2
- (optional=templinst|arch=mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_9ContainerEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
+ (optional=templinst|arch=amd64 mips mipsel s390 s390x sparc)_ZN8Analitza8Analyzer14iterateAndSimpINS_9ContainerEN5QListIPNS_6ObjectEE8iteratorEEEvPT_@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15alphaConversionEPNS_5ApplyEi@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15alphaConversionEPNS_9ContainerEi@ABI_4_0 4:4.7.2
  (optional=templinst|arch=mips mipsel s390x sparc)_ZN8Analitza8Analyzer15alphaConversionINS_6VectorEPPNS_6ObjectEEEvPT_i@ABI_4_0 4:4.7.2
@@ -175,6 +194,8 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza8Analyzer15initializeBVarsEPKNS_5ApplyEi@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer15simpPolynomialsEPNS_5ApplyE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer16boundedOperationERKNS_5ApplyERKNS_8OperatorEPNS_6ObjectE@ABI_4_0 4:4.7.2
+ _ZN8Analitza8Analyzer16calcCallFunctionEPNS_9ContainerERK7QVectorIPNS_6ObjectEEPKS4_@ABI_4_0 4:4.8.4
+ _ZN8Analitza8Analyzer16operateContainerE@ABI_4_0 4:4.8.4
  _ZN8Analitza8Analyzer18initBVarsContainerEPKNS_5ApplyEiPNS_6ObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer19insertValueVariableERK7QStringd@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer3sumERKNS_5ApplyE@ABI_4_0 4:4.7.2
@@ -184,12 +205,16 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZN8Analitza8Analyzer4simpEPNS_6ObjectE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer6existsERKNS_5ApplyE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer6forallERKNS_5ApplyE@ABI_4_0 4:4.7.2
+ _ZN8Analitza8Analyzer7calcMapEPKNS_5ApplyE@ABI_4_0 4:4.8.4
  _ZN8Analitza8Analyzer7operateEPKNS_5ApplyE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer7operateEPKNS_9ContainerE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer7productERKNS_5ApplyE@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer7simpSumEPNS_5ApplyE@ABI_4_0 4:4.7.2
+ _ZN8Analitza8Analyzer8calcDiffEPKNS_5ApplyE@ABI_4_0 4:4.8.4
+ _ZN8Analitza8Analyzer8calcMathEPKNS_9ContainerE@ABI_4_0 4:4.8.4
  _ZN8Analitza8Analyzer8evaluateEv@ABI_4_0 4:4.7.2
- _ZN8Analitza8Analyzer8levelOutEPNS_5ApplyES2_RN5QListIPNS_6ObjectEE8iteratorE@ABI_4_0 4:4.7.2
+#MISSING: 4:4.8.4# _ZN8Analitza8Analyzer8levelOutEPNS_5ApplyES2_RN5QListIPNS_6ObjectEE8iteratorE@ABI_4_0 4:4.7.2
+ _ZN8Analitza8Analyzer8levelOutEPNS_5ApplyES2_RPPNS_6ObjectE@ABI_4_0 4:4.8.4
  _ZN8Analitza8Analyzer8simplifyEv@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer9calculateEv@ABI_4_0 4:4.7.2
  _ZN8Analitza8Analyzer9simpApplyEPNS_5ApplyE@ABI_4_0 4:4.7.2
@@ -234,6 +259,7 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZNK8Analitza10Expression10lambdaBodyEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression10parametersEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression11stringValueEv@ABI_4_0 4:4.7.2
+ _ZNK8Analitza10Expression14isCustomObjectEv@ABI_4_0 4:4.8.4
  _ZNK8Analitza10Expression16toExpressionListEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression17customObjectValueEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression20toMathMLPresentationEv@ABI_4_0 4:4.7.2
@@ -245,6 +271,7 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZNK8Analitza10Expression6toRealEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression8bvarListEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression8isLambdaEv@ABI_4_0 4:4.7.2
+ _ZNK8Analitza10Expression8isStringEv@ABI_4_0 4:4.8.4
  _ZNK8Analitza10Expression8isVectorEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression8toMathMLEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza10Expression8toStringEv@ABI_4_0 4:4.7.2
@@ -255,13 +282,16 @@ libanalitza.so.4 libanalitza4 #MINVER#
  _ZNK8Analitza12CustomObject5visitEPNS_16ExpressionWriterE@ABI_4_0 4:4.7.2
  _ZNK8Analitza12CustomObject7matchesEPKNS_6ObjectEP4QMapI7QStringS3_E@ABI_4_0 4:4.7.2
  _ZNK8Analitza12CustomObjecteqERKS0_@ABI_4_0 4:4.7.2
+ _ZNK8Analitza14ExpressionType10objectNameEv@ABI_4_0 4:4.8.4
  _ZNK8Analitza14ExpressionType11assumptionsEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza14ExpressionType11canReduceToERKS0_@ABI_4_0 4:4.7.2
  _ZNK8Analitza14ExpressionType11returnValueEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza14ExpressionType11starsToTypeERK4QMapIiS0_E@ABI_4_0 4:4.7.2
+ _ZNK8Analitza14ExpressionType12canCompareToERKS0_@ABI_4_0 4:4.8.4
  _ZNK8Analitza14ExpressionType7isErrorEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza14ExpressionType8toStringEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza14ExpressionTypeeqERKS0_@ABI_4_0 4:4.7.2
+ _ZNK8Analitza21ExpressionTypeChecker14variablesTypesEv@ABI_4_0 4:4.8.4
  _ZNK8Analitza21ExpressionTypeChecker17isVariableDefinedERK7QString@ABI_4_0 4:4.7.2
  _ZNK8Analitza21ExpressionTypeChecker6errorsEv@ABI_4_0 4:4.7.2
  _ZNK8Analitza2Ci4copyEv@ABI_4_0 4:4.7.2

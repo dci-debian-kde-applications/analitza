@@ -11,7 +11,6 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  libreadline-dev,
  libncurses-dev,
  pkg-config,
- libqt4-opengl-dev,
  libkdeedu-dev (>= 4:4.8)
 Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/

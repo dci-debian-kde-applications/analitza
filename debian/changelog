@@ -1,4 +1,4 @@
-analitza (4:4.8.4-0r3) UNRELEASED; urgency=low
+analitza (4:4.8.4-1) experimental; urgency=low
 
   * Team upload. Uploading to experimental.
   * New upstream release.
@@ -27,7 +27,7 @@ analitza (4:4.8.4-0r3) UNRELEASED; urgency=low
   * Add watch file.
   * Update copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 17:32:13 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 16:19:42 -0300
 
 kalgebra (4:4.7.4-1) experimental; urgency=low
 

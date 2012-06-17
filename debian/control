@@ -25,7 +25,7 @@ Breaks: kalgebra-common (<< 4:4.8)
 Replaces: kalgebra-common (<< 4:4.8) 
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: development files for kalgebra
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
+ KAlgebra is an algebraic graphing calculator with support for 3D graphing and
  MathML markup language. This package contains the non graphical console
  interface for KAlgebra.
  .
@@ -39,9 +39,9 @@ Replaces: kalgebra-dev (<< 4:4.8)
 Depends: ${misc:Depends}, libanalitza4 (= ${binary:Version}),
  libanalitzagui4 (= ${binary:Version})
 Description: development files for kalgebra
- KAlgebra is a algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This package contains the development files needed to
- build other software against the KAlgebra libraries.
+ Analitza is a library to parse and work with mathematical expresssions. This
+ library is being used by KAlgebra and Cantor and may be used in other
+ programs.
  .
  This package is part of the KDE education module.
 

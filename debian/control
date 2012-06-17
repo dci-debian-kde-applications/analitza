@@ -18,6 +18,19 @@ Homepage: http://edu.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/analitza.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/analitza.git
 
+Package: calgebra
+Architecture: any
+Section: kde
+Breaks: kalgebra-common (<< 4:4.8) 
+Replaces: kalgebra-common (<< 4:4.8) 
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: development files for kalgebra
+ KAlgebra is a algebraic graphing calculator with support for 3D graphing and
+ MathML markup language. This package contains the non graphical console
+ interface for KAlgebra.
+ .
+ This package is part of the KDE education module.
+
 Package: libanalitza-dev
 Architecture: any
 Section: libdevel

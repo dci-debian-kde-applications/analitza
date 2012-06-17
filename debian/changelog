@@ -8,6 +8,8 @@ analitza (4:4.8.4-0r0) UNRELEASED; urgency=low
     - add new package libanalitza-dbg, which breaks and replaces kalgebra-dbg.
     - update Vcs-* fields.
     - source package belongs 'libs' Section.
+    - add binary package calgebra, which was formerly provided by
+      kalgebra-common.
   * Confirm symbols files on all architectures with 4.7.4 build logs.
   * Update enable_debianabimanager.diff.
   * Bump build dependencies for KDE SC 4.8.4:

@@ -1,5 +1,6 @@
 analitza (4:4.8.4-0r3) UNRELEASED; urgency=low
 
+  * Team upload. Uploading to experimental.
   * New upstream release.
     - Don't link calgebra with curses. (Closes: #648334)
 

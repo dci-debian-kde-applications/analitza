@@ -1,6 +1,7 @@
 analitza (4:4.8.4-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Don't link calgebra with curses. (Closes: #648334)
 
   [ José Manuel Santamaría Lema ]
   * Split analitza out of kalgebra:
@@ -16,6 +17,7 @@ analitza (4:4.8.4-0r2) UNRELEASED; urgency=low
   * Bump build dependencies for KDE SC 4.8.4:
     - kde-sc-dev-latest to 4.8.4.
     - kdelibs5-dev to 4.8.
+  * Drop libncurses-dev build depend, no longer needed.
   * Don't pass -DINSTALL_ANALITZA_HEADERS=TRUE to cmake, not needed anymore.
   * Bump libanalitza SONAME due to binary incompatible changes.
   * Update installed files.

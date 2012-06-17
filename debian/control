@@ -36,7 +36,7 @@ Architecture: any
 Section: libdevel
 Breaks: kalgebra-dev (<< 4:4.8) 
 Replaces: kalgebra-dev (<< 4:4.8) 
-Depends: ${misc:Depends}, libanalitza4 (= ${binary:Version}),
+Depends: ${misc:Depends}, libanalitza4abi1 (= ${binary:Version}),
  libanalitzagui4 (= ${binary:Version})
 Description: development files for kalgebra
  Analitza is a library to parse and work with mathematical expresssions. This
@@ -45,8 +45,8 @@ Description: development files for kalgebra
  .
  This package is part of the KDE education module.
 
-Package: libanalitza4
-X-Debian-ABI: 0
+Package: libanalitza4abi1
+X-Debian-ABI: 1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
@@ -75,7 +75,7 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: ${misc:Depends},
- libanalitza4 (= ${binary:Version}), libanalitzagui4 (= ${binary:Version})
+ libanalitza4abi1 (= ${binary:Version}), libanalitzagui4 (= ${binary:Version})
 Breaks: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
 Replaces: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
 Description: debugging symbols for the KDE education module

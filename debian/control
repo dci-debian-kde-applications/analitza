@@ -34,8 +34,7 @@ Description: development files for kalgebra
 Package: libanalitza-dev
 Architecture: any
 Section: libdevel
-Breaks: kalgebra-dev (<< 4:4.8) 
-Replaces: kalgebra-dev (<< 4:4.8) 
+Conflicts: kalgebra-dev
 Depends: ${misc:Depends}, libanalitza4abi1 (= ${binary:Version}),
  libanalitzagui4 (= ${binary:Version})
 Description: development files for kalgebra

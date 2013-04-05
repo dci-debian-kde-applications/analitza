@@ -83,7 +83,7 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: ${misc:Depends},
- libanalitza4abi1 (= ${binary:Version}), libanalitzagui4 (= ${binary:Version})
+ libanalitza4abi2 (= ${binary:Version}), libanalitzagui4abi1 (= ${binary:Version}), libanalitzaplot4 (= ${binary:Version})
 Breaks: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
 Replaces: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
 Description: debugging symbols for the KDE education module

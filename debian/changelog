@@ -3,6 +3,9 @@ analitza (4:4.10.5-2) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * New patch: analitzaplot-armhf.patch, to fix build problems in armhf.
 
+  [ Pino Toscano ]
+  * Minor symbols update.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Jul 2013 12:08:59 +0200
 
 analitza (4:4.10.5-1) unstable; urgency=low

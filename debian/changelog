@@ -1,6 +1,7 @@
 analitza (4:4.10.5-2) UNRELEASED; urgency=low
 
   * 
+  * New patch: analitzaplot-armhf.patch, to fix build problems in armhf.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 14 Jul 2013 12:08:59 +0200
 

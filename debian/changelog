@@ -2,6 +2,7 @@ analitza (4:4.10.5-2) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * New patch: analitzaplot-armhf.patch, to fix build problems in armhf.
+  * Update copyright file.
 
   [ Pino Toscano ]
   * Minor symbols update.

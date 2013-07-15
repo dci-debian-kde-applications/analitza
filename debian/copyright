@@ -1,8 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2007-2011 Aleix Pol <aleixpol@kde.org>
-           2010 Percy Camilo T. Aucahuasi <percy.camilo.ta@gmail.com>
+Copyright: 2007-2011, Aleix Pol <aleixpol@kde.org>
+           2010-2012, Percy Camilo T. Aucahuasi <percy.camilo.ta@gmail.com>
+           2007, Abderrahman Taha <taha_ab@yahoo.fr>
 License: GPL-2+
 
 Files: analitza/analitzaexport.h analitza/pushvalue.h

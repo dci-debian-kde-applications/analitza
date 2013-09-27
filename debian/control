@@ -18,8 +18,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/analitza.git
 Package: calgebra
 Architecture: any
 Section: kde
-Breaks: kalgebra-common (<< 4:4.8) 
-Replaces: kalgebra-common (<< 4:4.8) 
+Breaks: kalgebra-common (<< 4:4.8)
+Replaces: kalgebra-common (<< 4:4.8)
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: console interface for KAlgebra
  KAlgebra is an algebraic graphing calculator with support for 3D graphing and

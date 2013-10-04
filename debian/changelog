@@ -4,6 +4,7 @@ analitza (4:4.11.1-0r0) UNRELEASED; urgency=low
   * Bump libanalitza libanalitzaplot and libanalitzagui packages
     soversion.
   * Add symbols files.
+  * Add new package analitza-common.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:23:54 +0200
 

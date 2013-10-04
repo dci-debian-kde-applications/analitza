@@ -41,6 +41,18 @@ Description: development files for analitza
  .
  This package is part of the KDE education module.
 
+Package: analitza-common
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: libanalitzaplot4
+Conflicts: libanalitzaplot4
+Description: common files for analitza
+ Analitza is a library to parse and work with mathematical expresssions. This
+ library is being used by KAlgebra and Cantor and may be used in other
+ programs.
+ .
+ This package is part of the KDE education module.
+
 Package: libanalitza5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -66,7 +78,7 @@ Description: library to  work with mathematical expressions - GUI routines
 
 Package: libanalitzaplot5
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, analitza-common
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
 Description: library to  work with mathematical expressions - plotting bits

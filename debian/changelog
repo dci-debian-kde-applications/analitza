@@ -1,4 +1,4 @@
-analitza (4:4.11.1-0r0) UNRELEASED; urgency=low
+analitza (4:4.11.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump libanalitza libanalitzaplot and libanalitzagui packages
@@ -6,7 +6,7 @@ analitza (4:4.11.1-0r0) UNRELEASED; urgency=low
   * Add symbols files.
   * Add new package analitza-common.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:23:54 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 16:02:28 +0200
 
 analitza (4:4.10.5-2) unstable; urgency=low
 

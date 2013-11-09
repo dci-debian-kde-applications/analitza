@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.3 amd64
 libanalitzagui.so.5 libanalitzagui5 #MINVER#
  _ZN14OperatorsModel11descriptionERKN8Analitza8OperatorE@Base 4:4.11.1
  _ZN14OperatorsModel17updateInformationEv@Base 4:4.11.1
@@ -41,6 +41,7 @@ libanalitzagui.so.5 libanalitzagui5 #MINVER#
  _ZN8Analitza11PlotsView2D7toImageERK7QStringNS0_6FormatE@Base 4:4.11.1
  _ZN8Analitza11PlotsView2D7zoomOutEv@Base 4:4.11.1
  _ZN8Analitza11PlotsView2D8addFuncsERK11QModelIndexii@Base 4:4.11.1
+ _ZN8Analitza11PlotsView2D9showEventEP10QShowEvent@Base 4:4.11.3
  _ZN8Analitza11PlotsView2DC1EP7QWidget@Base 4:4.11.1
  _ZN8Analitza11PlotsView2DC2EP7QWidget@Base 4:4.11.1
  _ZN8Analitza11PlotsView2DD0Ev@Base 4:4.11.1
@@ -53,6 +54,7 @@ libanalitzagui.so.5 libanalitzagui5 #MINVER#
  _ZN8Analitza11PlotsView3D11updateFuncsERK11QModelIndexS3_@Base 4:4.11.1
  _ZN8Analitza11PlotsView3D12initializeGLEv@Base 4:4.11.1
  _ZN8Analitza11PlotsView3D12modelChangedEv@Base 4:4.11.1
+ _ZN8Analitza11PlotsView3D13keyPressEventEP9QKeyEvent@Base 4:4.11.3
  _ZN8Analitza11PlotsView3D14mouseMoveEventEP11QMouseEvent@Base 4:4.11.1
  _ZN8Analitza11PlotsView3D15mousePressEventEP11QMouseEvent@Base 4:4.11.1
  _ZN8Analitza11PlotsView3D16staticMetaObjectE@Base 4:4.11.1

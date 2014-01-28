@@ -1,6 +1,7 @@
 analitza (4:4.11.5-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Enable build failures on missing symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 18:52:12 +0100
 

@@ -2,14 +2,15 @@ Source: analitza
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libreadline-dev,
- pkg-config,
- libqt4-opengl-dev
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libqt4-opengl-dev,
+               libreadline-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.4
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
@@ -21,7 +22,7 @@ Architecture: any
 Section: kde
 Breaks: kalgebra-common (<< 4:4.8)
 Replaces: kalgebra-common (<< 4:4.8)
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: console interface for KAlgebra
  KAlgebra is an algebraic graphing calculator with support for 3D graphing and
  MathML markup language. This package contains the non graphical console
@@ -33,8 +34,10 @@ Package: libanalitza-dev
 Architecture: any
 Section: libdevel
 Conflicts: kalgebra-dev
-Depends: ${misc:Depends}, libanalitza5 (= ${binary:Version}),
- libanalitzagui5 (= ${binary:Version}), libanalitzaplot5 (= ${binary:Version})
+Depends: libanalitza5 (= ${binary:Version}),
+         libanalitzagui5 (= ${binary:Version}),
+         libanalitzaplot5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: development files for analitza
  Analitza is a library to parse and work with mathematical expresssions. This
  library is being used by KAlgebra and Cantor and may be used in other
@@ -56,7 +59,7 @@ Description: common files for analitza
 
 Package: libanalitza5
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
 Description: library to  work with mathematical expressions
@@ -67,7 +70,7 @@ Description: library to  work with mathematical expressions
 
 Package: libanalitzagui5
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
 Description: library to  work with mathematical expressions - GUI routines
@@ -79,7 +82,7 @@ Description: library to  work with mathematical expressions - GUI routines
 
 Package: libanalitzaplot5
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, analitza-common
+Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
 Description: library to  work with mathematical expressions - plotting bits
@@ -93,10 +96,12 @@ Package: libanalitza-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends},
- libanalitza5 (= ${binary:Version}), libanalitzagui5 (= ${binary:Version}), libanalitzaplot5 (= ${binary:Version})
-Breaks: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
-Replaces: kdeedu-dbg (<< 4:4.6.80), kalgebra-dbg (<< 4:4.8)
+Depends: libanalitza5 (= ${binary:Version}),
+         libanalitzagui5 (= ${binary:Version}),
+         libanalitzaplot5 (= ${binary:Version}),
+         ${misc:Depends}
+Breaks: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)
+Replaces: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the KDE education module
  This package contains debugging files used to investigate problems with
  binaries included in kalgebra.

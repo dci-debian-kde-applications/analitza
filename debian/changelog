@@ -3,6 +3,7 @@ analitza (4:4.12.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Remove patch: analitzaplot-armhf, applid by upstream
   * Update install files.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:23:48 +0100
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:4.11.1
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:4.11.1
@@ -33,10 +33,14 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZN8Analitza12PlotsFactory4selfEv@Base 4:4.11.1
  _ZN8Analitza12PlotsFactoryC1Ev@Base 4:4.11.1
  _ZN8Analitza12PlotsFactoryC2Ev@Base 4:4.11.1
+ _ZN8Analitza12PlotsFactoryD0Ev@Base 4:4.12.2
+ _ZN8Analitza12PlotsFactoryD1Ev@Base 4:4.12.2
+ _ZN8Analitza12PlotsFactoryD2Ev@Base 4:4.12.2
  _ZN8Analitza13FunctionGraph10setDisplayERK7QString@Base 4:4.11.1
  _ZN8Analitza13FunctionGraph11setIntervalERK7QStringRKNS_10ExpressionES6_@Base 4:4.11.1
  _ZN8Analitza13FunctionGraph11setIntervalERK7QStringdd@Base 4:4.11.1
  _ZN8Analitza13FunctionGraph13setResolutionEi@Base 4:4.11.1
+ _ZN8Analitza13FunctionGraph14clearIntervalsEv@Base 4:4.12.2
  _ZN8Analitza13FunctionGraphC1EPNS_21AbstractFunctionGraphE@Base 4:4.11.1
  _ZN8Analitza13FunctionGraphC2EPNS_21AbstractFunctionGraphE@Base 4:4.11.1
  _ZN8Analitza13FunctionGraphD0Ev@Base 4:4.11.1
@@ -49,6 +53,8 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZN8Analitza20PlotsDictionaryModel16createDictionaryERK7QString@Base 4:4.11.1
  _ZN8Analitza20PlotsDictionaryModel16staticMetaObjectE@Base 4:4.11.1
  _ZN8Analitza20PlotsDictionaryModel16updatePlotsModelEv@Base 4:4.11.1
+ _ZN8Analitza20PlotsDictionaryModel21createAllDictionariesEv@Base 4:4.12.2
+ _ZN8Analitza20PlotsDictionaryModel9dimensionEv@Base 4:4.12.2
  _ZN8Analitza20PlotsDictionaryModel9plotModelEv@Base 4:4.11.1
  _ZN8Analitza20PlotsDictionaryModelC1EP7QObject@Base 4:4.11.1
  _ZN8Analitza20PlotsDictionaryModelC2EP7QObject@Base 4:4.11.1
@@ -104,6 +110,7 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZN8Analitza9Plotter3D16resetViewPrivateERK9QVector3D@Base 4:4.11.1
  _ZN8Analitza9Plotter3D17showAxisArrowHintENS_13CartesianAxisE@Base 4:4.11.1
  _ZN8Analitza9Plotter3D22setPlottingFocusPolicyENS_19PlottingFocusPolicyE@Base 4:4.11.1
+ _ZN8Analitza9Plotter3D22setReferencePlaneColorERK6QColor@Base 4:4.12.2
  _ZN8Analitza9Plotter3D5scaleEd@Base 4:4.11.1
  _ZN8Analitza9Plotter3D6initGLEv@Base 4:4.11.1
  _ZN8Analitza9Plotter3D6rotateEii@Base 4:4.11.1
@@ -136,6 +143,7 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZNK8Analitza12PlotsFactory8examplesE6QFlagsINS_9DimensionEE@Base 4:4.11.1
  _ZNK8Analitza13FunctionGraph10expressionEv@Base 4:4.11.1
  _ZNK8Analitza13FunctionGraph10parametersEv@Base 4:4.11.1
+ _ZNK8Analitza13FunctionGraph12hasIntervalsEv@Base 4:4.12.2
  _ZNK8Analitza13FunctionGraph14spaceDimensionEv@Base 4:4.11.1
  _ZNK8Analitza13FunctionGraph16coordinateSystemEv@Base 4:4.11.1
  _ZNK8Analitza13FunctionGraph6errorsEv@Base 4:4.11.1
@@ -168,6 +176,7 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZTIN8Analitza10PlaneCurveE@Base 4:4.11.1
  _ZTIN8Analitza10PlotsModelE@Base 4:4.11.1
  _ZTIN8Analitza10SpaceCurveE@Base 4:4.11.1
+ _ZTIN8Analitza12PlotsFactoryE@Base 4:4.12.2
  _ZTIN8Analitza13FunctionGraphE@Base 4:4.11.1
  _ZTIN8Analitza20PlotsDictionaryModelE@Base 4:4.11.1
  _ZTIN8Analitza6ObjectE@Base 4:4.11.1
@@ -178,6 +187,7 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZTSN8Analitza10PlaneCurveE@Base 4:4.11.1
  _ZTSN8Analitza10PlotsModelE@Base 4:4.11.1
  _ZTSN8Analitza10SpaceCurveE@Base 4:4.11.1
+ _ZTSN8Analitza12PlotsFactoryE@Base 4:4.12.2
  _ZTSN8Analitza13FunctionGraphE@Base 4:4.11.1
  _ZTSN8Analitza20PlotsDictionaryModelE@Base 4:4.11.1
  _ZTSN8Analitza6ObjectE@Base 4:4.11.1
@@ -188,6 +198,7 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZTVN8Analitza10PlaneCurveE@Base 4:4.11.1
  _ZTVN8Analitza10PlotsModelE@Base 4:4.11.1
  _ZTVN8Analitza10SpaceCurveE@Base 4:4.11.1
+ _ZTVN8Analitza12PlotsFactoryE@Base 4:4.12.2
  _ZTVN8Analitza13FunctionGraphE@Base 4:4.11.1
  _ZTVN8Analitza20PlotsDictionaryModelE@Base 4:4.11.1
  _ZTVN8Analitza6ObjectE@Base 4:4.11.1

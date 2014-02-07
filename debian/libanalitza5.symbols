@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libanalitza.so.5 libanalitza5 #MINVER#
  _ZN13AbstractLexer11m_operatorsE@Base 4:4.11.1
  _ZN13AbstractLexer15m_longOperatorsE@Base 4:4.11.1
@@ -327,6 +327,7 @@ libanalitza.so.5 libanalitza5 #MINVER#
  _ZNK8Analitza21ExpressionTypeChecker6errorsEv@Base 4:4.11.1
  _ZNK8Analitza2Ci4copyEv@Base 4:4.11.1
  _ZNK8Analitza2Ci5visitEPNS_16ExpressionWriterE@Base 4:4.11.1
+ _ZNK8Analitza2Ci6toHtmlEv@Base 4:4.12.2
  _ZNK8Analitza2Ci7matchesEPKNS_6ObjectEP4QMapI7QStringS3_E@Base 4:4.11.1
  _ZNK8Analitza2Ci8toMathMLEv@Base 4:4.11.1
  _ZNK8Analitza2Cn4copyEv@Base 4:4.11.1

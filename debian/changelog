@@ -1,4 +1,4 @@
-analitza (4:4.12.2-1) UNRELEASED; urgency=medium
+analitza (4:4.12.2-1) experimental; urgency=medium
 
   * New upstream release.
   * Remove patch: analitzaplot-armhf, applid by upstream
@@ -6,7 +6,7 @@ analitza (4:4.12.2-1) UNRELEASED; urgency=medium
   * Update symbols files.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:23:48 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:09 +0100
 
 analitza (4:4.11.5-1) unstable; urgency=medium
 

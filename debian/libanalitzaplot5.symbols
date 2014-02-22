@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 armel armhf
 libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:4.11.1
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:4.11.1
@@ -78,12 +78,12 @@ libanalitzaplot.so.5 libanalitzaplot5 #MINVER#
  _ZN8Analitza9Plotter2D11updateScaleEb@Base 4:4.11.1
  _ZN8Analitza9Plotter2D12moveViewportERK6QPoint@Base 4:4.11.1
  _ZN8Analitza9Plotter2D13drawFunctionsEP12QPaintDevice@Base 4:4.11.1
- _ZN8Analitza9Plotter2D13scaleViewportEdRK6QPoint@Base 4:4.11.1
+ (subst)_ZN8Analitza9Plotter2D13scaleViewportE{qreal}RK6QPoint@Base 4:4.11.1
  _ZN8Analitza9Plotter2D13setXAxisLabelERK7QString@Base 4:4.11.1
  _ZN8Analitza9Plotter2D13setYAxisLabelERK7QString@Base 4:4.11.1
  _ZN8Analitza9Plotter2D14setPaintedSizeERK5QSize@Base 4:4.11.1
  _ZN8Analitza9Plotter2D15updateFunctionsERK11QModelIndexii@Base 4:4.11.1
- _ZN8Analitza9Plotter2D15updateTickScaleERK7QStringdii@Base 4:4.11.1
+ (subst)_ZN8Analitza9Plotter2D15updateTickScaleERK7QString{qreal}ii@Base 4:4.11.1
  _ZN8Analitza9Plotter2D17m_derivativeColorE@Base 4:4.11.1
  _ZN8Analitza9Plotter2D18setKeepAspectRatioEb@Base 4:4.11.1
  _ZN8Analitza9Plotter2D8setModelEP18QAbstractItemModel@Base 4:4.11.1

@@ -23,10 +23,12 @@ Section: kde
 Breaks: kalgebra-common (<< 4:4.8)
 Replaces: kalgebra-common (<< 4:4.8)
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: console interface for KAlgebra
- KAlgebra is an algebraic graphing calculator with support for 3D graphing and
- MathML markup language. This package contains the non graphical console
- interface for KAlgebra.
+Description: console interface for Analitza
+ Analitza is a library to parse and work with mathematical expressions. This
+ library is being used by KAlgebra and Cantor and may be used in other
+ programs.
+ .
+ This package contains a console interface for Analitza.
  .
  This package is part of the KDE education module.
 
@@ -38,10 +40,13 @@ Depends: libanalitza5 (= ${binary:Version}),
          libanalitzagui5 (= ${binary:Version}),
          libanalitzaplot5 (= ${binary:Version}),
          ${misc:Depends}
-Description: development files for analitza
- Analitza is a library to parse and work with mathematical expresssions. This
+Description: development files for Analitza
+ Analitza is a library to parse and work with mathematical expressions. This
  library is being used by KAlgebra and Cantor and may be used in other
  programs.
+ .
+ This package contains the development files, used to build applications that
+ use Analitza.
  .
  This package is part of the KDE education module.
 
@@ -50,8 +55,8 @@ Architecture: all
 Depends: ${misc:Depends}
 Replaces: libanalitzaplot4
 Conflicts: libanalitzaplot4
-Description: common files for analitza
- Analitza is a library to parse and work with mathematical expresssions. This
+Description: common files for Analitza
+ Analitza is a library to parse and work with mathematical expressions. This
  library is being used by KAlgebra and Cantor and may be used in other
  programs.
  .
@@ -62,7 +67,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
-Description: library to  work with mathematical expressions
+Description: library to work with mathematical expressions
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions.
  .
@@ -73,7 +78,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
-Description: library to  work with mathematical expressions - GUI routines
+Description: library to work with mathematical expressions - GUI routines
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions. This library provides the routines related
  to the graphical user interface.
@@ -85,7 +90,7 @@ Architecture: any
 Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
 Replaces: kalgebra (<< 4:4.7.2)
-Description: library to  work with mathematical expressions - plotting bits
+Description: library to work with mathematical expressions - plotting bits
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions. This library provides the routines related
  to plotting.
@@ -102,8 +107,8 @@ Depends: libanalitza5 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)
 Replaces: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)
-Description: debugging symbols for the KDE education module
+Description: debugging symbols for Analitza
  This package contains debugging files used to investigate problems with
- binaries included in kalgebra.
+ libraries and binaries included in Analitza.
  .
  This package is part of the KDE education module.

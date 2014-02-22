@@ -14,6 +14,16 @@ analitza (4:4.12.2-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:09 +0100
 
+analitza (4:4.11.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols files.
+  * Bump Standards-Version to 3.9.5, no changes required.
+  * Update descriptions, also fixing typos in them. (Closes: #729211)
+  * Remove unused kalgebra-common.install.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 22 Feb 2014 17:27:05 +0100
+
 analitza (4:4.11.5-1) unstable; urgency=medium
 
   * New upstream release.

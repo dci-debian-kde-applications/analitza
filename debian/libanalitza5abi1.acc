@@ -2,15 +2,15 @@
 <descriptor>
 
 <version>
-    4.11.3
+    4.13.1
 </version>
 
 <headers>
-    /usr/include/analitzaplot
+    /usr/include/analitza
 </headers>
 
 <libs>
-    /usr/lib/libanalitzaplot.so
+    /usr/lib/libanalitza.so
 </libs>
 
 </descriptor>

@@ -1,10 +1,10 @@
-analitza (4:4.13.1-1) UNRELEASED; urgency=medium
+analitza (4:4.13.1-1) experimental; urgency=medium
 
   * New upstream release.
   * Update install files.
   * Abi breakage, bump soversion, sync with kubuntu.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 18 May 2014 00:36:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 24 May 2014 20:14:43 +0200
 
 analitza (4:4.12.2-2) unstable; urgency=medium
 

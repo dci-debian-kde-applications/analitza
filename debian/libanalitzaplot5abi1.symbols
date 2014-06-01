@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.80 amd64
+# SymbolsHelper-Confirmed: 4:4.13.1 armhf
 libanalitzaplot.so.5abi1 libanalitzaplot5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.12.80
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@ABI_5_1 4:4.12.80
@@ -89,7 +89,7 @@ libanalitzaplot.so.5abi1 libanalitzaplot5abi1 #MINVER#
  _ZN8Analitza9Plotter2D13GradianSymbolE@ABI_5_1 4:4.12.80
  _ZN8Analitza9Plotter2D13ZoomOutFactorE@ABI_5_1 4:4.12.80
  _ZN8Analitza9Plotter2D13drawFunctionsEP12QPaintDevice@ABI_5_1 4:4.12.80
- _ZN8Analitza9Plotter2D13scaleViewportEdRK6QPointb@ABI_5_1 4:4.12.80
+ (subst)_ZN8Analitza9Plotter2D13scaleViewportE{qreal}RK6QPointb@ABI_5_1 4:4.12.80
  _ZN8Analitza9Plotter2D13setXAxisLabelERK7QString@ABI_5_1 4:4.12.80
  _ZN8Analitza9Plotter2D13setYAxisLabelERK7QString@ABI_5_1 4:4.12.80
  _ZN8Analitza9Plotter2D14setPaintedSizeERK5QSize@ABI_5_1 4:4.12.80

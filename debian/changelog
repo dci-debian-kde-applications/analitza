@@ -3,6 +3,9 @@ analitza (4:4.13.1-2) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update copyright information. (Closes: #749379)
 
+  [ Pino Toscano ]
+  * Update symbols files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 May 2014 09:35:48 +0200
 
 analitza (4:4.13.1-1) experimental; urgency=medium

@@ -100,16 +100,6 @@ Description: library to work with mathematical expressions - plotting bits
  .
  This package is part of the KDE education module.
 
-Package: libanalitzaplot5
-Architecture: all
-Depends: libanalitzaplot5abi1 (>= ${source:Version})
-Section: oldlibs
-Priority: extra
-Description: transitional package for libanalitzaplot5abi1
- Transitional package for libanalitzaplot5
- .
- This package can safely be removed after installation.
-
 Package: libanalitza-dbg
 Architecture: any
 Section: debug

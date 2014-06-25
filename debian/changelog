@@ -1,5 +1,8 @@
 analitza (4:4.13.1-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * analitza-common: break/replace against old libanalitzaplot4 (it helps
+    when upgrading from such installations).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Jun 2014 15:08:50 +0200
 

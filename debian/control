@@ -1,37 +1,23 @@
 Source: analitza
 Section: libs
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               extra-cmake-modules,
+               libeigen3-dev,
                libncurses5-dev,
-               libqt4-opengl-dev,
+               libqt5opengl5-dev,
                libreadline-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               qtdeclarative5-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/analitza.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/analitza.git
-
-Package: calgebra
-Architecture: any
-Section: kde
-Breaks: kalgebra-common (<< 4:4.8)
-Replaces: kalgebra-common (<< 4:4.8)
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: console interface for Analitza
- Analitza is a library to parse and work with mathematical expressions. This
- library is being used by KAlgebra and Cantor and may be used in other
- programs.
- .
- This package contains a console interface for Analitza.
- .
- This package is part of the KDE education module.
 
 Package: analitza-common
 Architecture: all
@@ -49,9 +35,11 @@ Package: libanalitza-dev
 Architecture: any
 Section: libdevel
 Conflicts: kalgebra-dev
-Depends: libanalitza5abi1 (= ${binary:Version}),
-         libanalitzagui5abi1 (= ${binary:Version}),
-         libanalitzaplot5abi1 (= ${binary:Version}),
+Depends: libanalitza6 (= ${binary:Version}),
+         libanalitzagui6 (= ${binary:Version}),
+         libanalitzaplot6 (= ${binary:Version}),
+         libanalitzawidgets6 (= ${binary:Version}),
+         qml-module-org-kde-analitza (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This
@@ -63,20 +51,25 @@ Description: development files for Analitza
  .
  This package is part of the KDE education module.
 
-Package: libanalitza5abi1
-X-Debian-ABI: 1
+Package: libanalitza6
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kalgebra (<< 4:4.7.2)
-Replaces: kalgebra (<< 4:4.7.2)
 Description: library to work with mathematical expressions
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions.
  .
  This package is part of the KDE education module.
 
-Package: libanalitzagui5abi1
-X-Debian-ABI: 1
+Package: libanalitzawidgets6
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library to work with mathematical expressions - widgets
+ This library is used by KAlgebra and may be used by other software to parse and
+ work with mathematical expressions.
+ .
+ This package is part of the KDE education module.
+
+Package: libanalitzagui6
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
@@ -88,8 +81,7 @@ Description: library to work with mathematical expressions - GUI routines
  .
  This package is part of the KDE education module.
 
-Package: libanalitzaplot5abi1
-X-Debian-ABI: 1
+Package: libanalitzaplot6
 Architecture: any
 Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
@@ -101,13 +93,23 @@ Description: library to work with mathematical expressions - plotting bits
  .
  This package is part of the KDE education module.
 
+Package: qml-module-org-kde-analitza
+Architecture: any
+Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
+Description: library to work with mathematical expressions - QML library
+ This library is used by KAlgebra and may be used by other software to parse and
+ work with mathematical expressions. This library provides the routines related
+ to plotting.
+ .
+ This package is part of the KDE education module.
+
 Package: libanalitza-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libanalitza5abi1 (= ${binary:Version}),
-         libanalitzagui5abi1 (= ${binary:Version}),
-         libanalitzaplot5abi1 (= ${binary:Version}),
+Depends: libanalitza6 (= ${binary:Version}),
+         libanalitzagui6 (= ${binary:Version}),
+         libanalitzaplot6 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)
 Replaces: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)

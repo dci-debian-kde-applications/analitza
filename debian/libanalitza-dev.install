@@ -1,9 +1,6 @@
-usr/include/analitza/
-usr/include/analitzagui/
-usr/include/analitzaplot/
-usr/lib/cmake/analitza/AnalitzaConfig.cmake
-usr/lib/cmake/analitza/AnalitzaTargets-debian.cmake
-usr/lib/cmake/analitza/AnalitzaTargets.cmake
-usr/lib/libanalitza.so
-usr/lib/libanalitzagui.so
-usr/lib/libanalitzaplot.so
+debian/tmp/usr/lib/*/cmake/Analitza5
+usr/include/Analitza5/
+usr/lib/*/libAnalitza.so
+usr/lib/*/libAnalitzaGui.so
+usr/lib/*/libAnalitzaPlot.so
+usr/lib/*/libAnalitzaWidgets.so

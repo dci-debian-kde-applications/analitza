@@ -1,3 +1,11 @@
+analitza (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Change build-deps for Qt 5 build
+  * Change pkg-kde script to version 3 in debian/rules
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 13:37:46 +0100
+
 analitza (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.

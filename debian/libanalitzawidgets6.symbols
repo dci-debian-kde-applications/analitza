@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64
+# SymbolsHelper-Confirmed: 4:14.11.97 amd64 armhf
 libAnalitzaWidgets.so.6 libanalitzawidgets6 #MINVER#
  _ZN8Analitza11PlotsView2D10paintEventEP11QPaintEvent@Base 4:14.11.97
  _ZN8Analitza11PlotsView2D10wheelEventEP11QWheelEvent@Base 4:14.11.97
@@ -27,28 +27,28 @@ libAnalitzaWidgets.so.6 libanalitzawidgets6 #MINVER#
  _ZN8Analitza11PlotsView2DD0Ev@Base 4:14.11.97
  _ZN8Analitza11PlotsView2DD1Ev@Base 4:14.11.97
  _ZN8Analitza11PlotsView2DD2Ev@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D10wheelEventEP11QWheelEvent@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D11qt_metacastEPKc@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D11removeFuncsERK11QModelIndexii@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D11updateFuncsERK11QModelIndexS3_@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D12initializeGLEv@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D12modelChangedEv@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D13keyPressEventEP9QKeyEvent@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D14mouseMoveEventEP11QMouseEvent@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D15mousePressEventEP11QMouseEvent@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D16staticMetaObjectE@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D17setSelectionModelEP19QItemSelectionModel@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D7paintGLEv@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D8addFuncsERK11QModelIndexii@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D8renderGLEv@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D8resizeGLEii@Base 4:14.11.97
- _ZN8Analitza11PlotsView3D9resetViewEv@Base 4:14.11.97
- _ZN8Analitza11PlotsView3DC1EP7QWidget@Base 4:14.11.97
- _ZN8Analitza11PlotsView3DC2EP7QWidget@Base 4:14.11.97
- _ZN8Analitza11PlotsView3DD0Ev@Base 4:14.11.97
- _ZN8Analitza11PlotsView3DD1Ev@Base 4:14.11.97
- _ZN8Analitza11PlotsView3DD2Ev@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D10wheelEventEP11QWheelEvent@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D11qt_metacastEPKc@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D11removeFuncsERK11QModelIndexii@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D11updateFuncsERK11QModelIndexS3_@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D12initializeGLEv@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D12modelChangedEv@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D13keyPressEventEP9QKeyEvent@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D14mouseMoveEventEP11QMouseEvent@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D15mousePressEventEP11QMouseEvent@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D16staticMetaObjectE@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D17setSelectionModelEP19QItemSelectionModel@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D7paintGLEv@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D8addFuncsERK11QModelIndexii@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D8renderGLEv@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D8resizeGLEii@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3D9resetViewEv@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3DC1EP7QWidget@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3DC2EP7QWidget@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3DD0Ev@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3DD1Ev@Base 4:14.11.97
+ (arch=amd64)_ZN8Analitza11PlotsView3DD2Ev@Base 4:14.11.97
  _ZN8Analitza14ExpressionEdit10insertTextERK7QString@Base 4:14.11.97
  _ZN8Analitza14ExpressionEdit10setCorrectEb@Base 4:14.11.97
  _ZN8Analitza14ExpressionEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
@@ -83,26 +83,26 @@ libAnalitzaWidgets.so.6 libanalitzawidgets6 #MINVER#
  _ZNK8Analitza11PlotsView2D10metaObjectEv@Base 4:14.11.97
  _ZNK8Analitza11PlotsView2D15currentFunctionEv@Base 4:14.11.97
  _ZNK8Analitza11PlotsView2D15definedViewportEv@Base 4:14.11.97
- _ZNK8Analitza11PlotsView3D10metaObjectEv@Base 4:14.11.97
+ (arch=amd64)_ZNK8Analitza11PlotsView3D10metaObjectEv@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit10expressionEv@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit10metaObjectEv@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit8helpShowERK7QStringibPKNS_9VariablesE@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit8isMathMLEv@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit9isCorrectEv@Base 4:14.11.97
  _ZTIN8Analitza11PlotsView2DE@Base 4:14.11.97
- _ZTIN8Analitza11PlotsView3DE@Base 4:14.11.97
+ (arch=amd64)_ZTIN8Analitza11PlotsView3DE@Base 4:14.11.97
  _ZTIN8Analitza14ExpressionEditE@Base 4:14.11.97
  _ZTSN8Analitza11PlotsView2DE@Base 4:14.11.97
- _ZTSN8Analitza11PlotsView3DE@Base 4:14.11.97
+ (arch=amd64)_ZTSN8Analitza11PlotsView3DE@Base 4:14.11.97
  _ZTSN8Analitza14ExpressionEditE@Base 4:14.11.97
  _ZTVN8Analitza11PlotsView2DE@Base 4:14.11.97
- _ZTVN8Analitza11PlotsView3DE@Base 4:14.11.97
+ (arch=amd64)_ZTVN8Analitza11PlotsView3DE@Base 4:14.11.97
  _ZTVN8Analitza14ExpressionEditE@Base 4:14.11.97
  (c++)"non-virtual thunk to Analitza::ExpressionEdit::~ExpressionEdit()@Base" 4:14.11.97
  (c++)"non-virtual thunk to Analitza::PlotsView2D::currentFunction() const@Base" 4:14.11.97
  (c++)"non-virtual thunk to Analitza::PlotsView2D::modelChanged()@Base" 4:14.11.97
  (c++)"non-virtual thunk to Analitza::PlotsView2D::viewportChanged()@Base" 4:14.11.97
  (c++)"non-virtual thunk to Analitza::PlotsView2D::~PlotsView2D()@Base" 4:14.11.97
- (c++)"non-virtual thunk to Analitza::PlotsView3D::modelChanged()@Base" 4:14.11.97
- (c++)"non-virtual thunk to Analitza::PlotsView3D::renderGL()@Base" 4:14.11.97
- (c++)"non-virtual thunk to Analitza::PlotsView3D::~PlotsView3D()@Base" 4:14.11.97
+ (c++|arch=amd64)"non-virtual thunk to Analitza::PlotsView3D::modelChanged()@Base" 4:14.11.97
+ (c++|arch=amd64)"non-virtual thunk to Analitza::PlotsView3D::renderGL()@Base" 4:14.11.97
+ (c++|arch=amd64)"non-virtual thunk to Analitza::PlotsView3D::~PlotsView3D()@Base" 4:14.11.97

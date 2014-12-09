@@ -1,3 +1,9 @@
+analitza (4:14.11.97-0ubuntu2) vivid; urgency=medium
+
+  * Update .symbols file for armhf
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Dec 2014 15:26:14 +0100
+
 analitza (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream release

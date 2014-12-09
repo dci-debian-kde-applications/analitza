@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64
+# SymbolsHelper-Confirmed: 4:14.11.97 amd64 armhf i386 ppc64el
 libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:14.11.97
@@ -110,32 +110,32 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZN8Analitza9Plotter2DD0Ev@Base 4:14.11.97
  _ZN8Analitza9Plotter2DD1Ev@Base 4:14.11.97
  _ZN8Analitza9Plotter2DD2Ev@Base 4:14.11.97
- _ZN8Analitza9Plotter3D11fixRotationERK9QVector3D@Base 4:14.11.97
- _ZN8Analitza9Plotter3D11setViewportERK6QRectF@Base 4:14.11.97
- _ZN8Analitza9Plotter3D11updatePlotsERK11QModelIndexii@Base 4:14.11.97
- _ZN8Analitza9Plotter3D12hideAxisHintEv@Base 4:14.11.97
- _ZN8Analitza9Plotter3D13initRefPlanesEv@Base 4:14.11.97
- _ZN8Analitza9Plotter3D15XAxisArrowColorE@Base 4:14.11.97
- _ZN8Analitza9Plotter3D15YAxisArrowColorE@Base 4:14.11.97
- _ZN8Analitza9Plotter3D15ZAxisArrowColorE@Base 4:14.11.97
- _ZN8Analitza9Plotter3D15selectAxisArrowEii@Base 4:14.11.97
- _ZN8Analitza9Plotter3D16resetViewPrivateERK9QVector3D@Base 4:14.11.97
- _ZN8Analitza9Plotter3D17showAxisArrowHintENS_13CartesianAxisE@Base 4:14.11.97
- _ZN8Analitza9Plotter3D22setPlottingFocusPolicyENS_19PlottingFocusPolicyE@Base 4:14.11.97
- _ZN8Analitza9Plotter3D22setReferencePlaneColorERK6QColor@Base 4:14.11.97
- _ZN8Analitza9Plotter3D5scaleEd@Base 4:14.11.97
- _ZN8Analitza9Plotter3D6initGLEv@Base 4:14.11.97
- _ZN8Analitza9Plotter3D6rotateEii@Base 4:14.11.97
- _ZN8Analitza9Plotter3D8addPlotsEPNS_8PlotItemE@Base 4:14.11.97
- _ZN8Analitza9Plotter3D8initAxesEv@Base 4:14.11.97
- _ZN8Analitza9Plotter3D8setModelEP18QAbstractItemModel@Base 4:14.11.97
- _ZN8Analitza9Plotter3D9drawPlotsEv@Base 4:14.11.97
- _ZN8Analitza9Plotter3D9resetViewEv@Base 4:14.11.97
- _ZN8Analitza9Plotter3DC1EP18QAbstractItemModel@Base 4:14.11.97
- _ZN8Analitza9Plotter3DC2EP18QAbstractItemModel@Base 4:14.11.97
- _ZN8Analitza9Plotter3DD0Ev@Base 4:14.11.97
- _ZN8Analitza9Plotter3DD1Ev@Base 4:14.11.97
- _ZN8Analitza9Plotter3DD2Ev@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D11fixRotationERK9QVector3D@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D11setViewportERK6QRectF@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D11updatePlotsERK11QModelIndexii@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D12hideAxisHintEv@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D13initRefPlanesEv@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D15XAxisArrowColorE@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D15YAxisArrowColorE@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D15ZAxisArrowColorE@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D15selectAxisArrowEii@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D16resetViewPrivateERK9QVector3D@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D17showAxisArrowHintENS_13CartesianAxisE@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D22setPlottingFocusPolicyENS_19PlottingFocusPolicyE@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D22setReferencePlaneColorERK6QColor@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D5scaleEd@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D6initGLEv@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D6rotateEii@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D8addPlotsEPNS_8PlotItemE@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D8initAxesEv@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D8setModelEP18QAbstractItemModel@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D9drawPlotsEv@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3D9resetViewEv@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3DC1EP18QAbstractItemModel@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3DC2EP18QAbstractItemModel@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3DD0Ev@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3DD1Ev@Base 4:14.11.97
+ (arch=!armhf)_ZN8Analitza9Plotter3DD2Ev@Base 4:14.11.97
  _ZNK8Analitza10PlaneCurve5jumpsEv@Base 4:14.11.97
  _ZNK8Analitza10PlaneCurve6pointsEv@Base 4:14.11.97
  _ZNK8Analitza10PlotsModel10headerDataEiN2Qt11OrientationEi@Base 4:14.11.97
@@ -190,8 +190,8 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZNK8Analitza9Plotter2D8toWidgetERK6QLineF@Base 4:14.11.97
  _ZNK8Analitza9Plotter2D8toWidgetERK7QPointF@Base 4:14.11.97
  _ZNK8Analitza9Plotter2D9calcImageERK7QPointF@Base 4:14.11.97
- _ZNK8Analitza9Plotter3D14exportSurfacesERK7QString@Base 4:14.11.97
- _ZNK8Analitza9Plotter3D6itemAtEi@Base 4:14.11.97
+ (arch=!armhf)_ZNK8Analitza9Plotter3D14exportSurfacesERK7QString@Base 4:14.11.97
+ (arch=!armhf)_ZNK8Analitza9Plotter3D6itemAtEi@Base 4:14.11.97
  _ZTIN8Analitza10PlaneCurveE@Base 4:14.11.97
  _ZTIN8Analitza10PlotsModelE@Base 4:14.11.97
  _ZTIN8Analitza10SpaceCurveE@Base 4:14.11.97
@@ -202,7 +202,7 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZTIN8Analitza7SurfaceE@Base 4:14.11.97
  _ZTIN8Analitza8PlotItemE@Base 4:14.11.97
  _ZTIN8Analitza9Plotter2DE@Base 4:14.11.97
- _ZTIN8Analitza9Plotter3DE@Base 4:14.11.97
+ (arch=!armhf)_ZTIN8Analitza9Plotter3DE@Base 4:14.11.97
  _ZTSN8Analitza10PlaneCurveE@Base 4:14.11.97
  _ZTSN8Analitza10PlotsModelE@Base 4:14.11.97
  _ZTSN8Analitza10SpaceCurveE@Base 4:14.11.97
@@ -213,7 +213,7 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZTSN8Analitza7SurfaceE@Base 4:14.11.97
  _ZTSN8Analitza8PlotItemE@Base 4:14.11.97
  _ZTSN8Analitza9Plotter2DE@Base 4:14.11.97
- _ZTSN8Analitza9Plotter3DE@Base 4:14.11.97
+ (arch=!armhf)_ZTSN8Analitza9Plotter3DE@Base 4:14.11.97
  _ZTVN8Analitza10PlaneCurveE@Base 4:14.11.97
  _ZTVN8Analitza10PlotsModelE@Base 4:14.11.97
  _ZTVN8Analitza10SpaceCurveE@Base 4:14.11.97
@@ -224,4 +224,4 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZTVN8Analitza7SurfaceE@Base 4:14.11.97
  _ZTVN8Analitza8PlotItemE@Base 4:14.11.97
  _ZTVN8Analitza9Plotter2DE@Base 4:14.11.97
- _ZTVN8Analitza9Plotter3DE@Base 4:14.11.97
+ (arch=!armhf)_ZTVN8Analitza9Plotter3DE@Base 4:14.11.97

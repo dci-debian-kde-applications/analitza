@@ -1,8 +1,8 @@
-analitza (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
+analitza (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 05 Feb 2015 20:46:26 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:47:26 -0800
 
 analitza (4:14.12.0-0ubuntu2) vivid; urgency=medium
 

@@ -1,11 +1,11 @@
-analitza (4:14.12.2-1~) UNRELEASED; urgency=medium
+analitza (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update build dependencies to build against experimental and to
     follow cmake.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 12:38:15 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 14:55:00 +0100
 
 analitza (4:14.12.2-0ubuntu1) vivid; urgency=medium
 

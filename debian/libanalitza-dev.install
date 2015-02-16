@@ -1,4 +1,4 @@
-debian/tmp/usr/lib/*/cmake/Analitza5
+usr/lib/*/cmake/Analitza5
 usr/include/Analitza5/
 usr/lib/*/libAnalitza.so
 usr/lib/*/libAnalitzaGui.so

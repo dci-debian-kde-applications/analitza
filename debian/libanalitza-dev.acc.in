@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    5.3.0
+</version>
+
+<headers>
+    /usr/include/Analitza5/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitza.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitzaGui.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitzaPlot.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitzaWidgets.so
+</libs>
+
+<gcc_options>
+    -fPIC
+</gcc_options>
+
+</descriptor>

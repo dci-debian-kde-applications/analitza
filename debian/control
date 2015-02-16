@@ -42,6 +42,7 @@ Depends: libanalitza6 (= ${binary:Version}),
          libanalitzaplot6 (= ${binary:Version}),
          libanalitzawidgets6 (= ${binary:Version}),
          qml-module-org-kde-analitza (= ${binary:Version}),
+         qtbase5-dev (>= 5.2),
          ${misc:Depends}
 Description: development files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This

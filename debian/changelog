@@ -1,6 +1,8 @@
 analitza (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix tests. Calling kdeinit4 in kf5 builds are not going to 
+    get very far.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 09:04:39 -0700
 

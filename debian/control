@@ -9,13 +9,13 @@ Build-Depends: cmake (>= 2.8.12),
                libeigen3-dev,
                libglew-dev,
                libncurses5-dev,
-               libqt5opengl5-dev (>= 5.2~),
-               libqt5svg5-dev (>= 5.2~),
+               libqt5opengl5-dev (>= 5.4),
+               libqt5svg5-dev (>= 5.4),
                libreadline-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2),
-               qtdeclarative5-dev (>= 5.2~)
+               qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
@@ -43,7 +43,7 @@ Depends: libanalitza6 (= ${binary:Version}),
          libanalitzaplot6 (= ${binary:Version}),
          libanalitzawidgets6 (= ${binary:Version}),
          qml-module-org-kde-analitza (= ${binary:Version}),
-         qtbase5-dev (>= 5.2),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This

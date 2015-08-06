@@ -10,7 +10,6 @@ analitza (4:14.12.3-0ubuntu2) vivid; urgency=medium
    * Fix tests. Calling kdeinit4 in kf5 builds are not going to
     get very far.
 
-
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 18:30:09 -0700
 
 analitza (4:14.12.3-0ubuntu1) vivid; urgency=medium

@@ -1,6 +1,6 @@
 analitza (4:4.14.0-2~) UNRELEASED; urgency=medium
 
-  * Update symbols file.
+  * Update symbols file. (Closes: #777770)
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Aug 2015 14:54:00 +0200
 

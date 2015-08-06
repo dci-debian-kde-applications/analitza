@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.80 amd64
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libanalitzagui.so.5abi1 libanalitzagui5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.12.80
  _ZN14OperatorsModel11descriptionERKN8Analitza8OperatorE@ABI_5_1 4:4.12.80
@@ -8,15 +8,15 @@ libanalitzagui.so.5abi1 libanalitzagui5abi1 #MINVER#
  _ZN14OperatorsModel7exampleERKN8Analitza8OperatorE@ABI_5_1 4:4.12.80
  _ZN14OperatorsModelC1EP7QObject@ABI_5_1 4:4.12.80
  _ZN14OperatorsModelC2EP7QObject@ABI_5_1 4:4.12.80
- _ZN14OperatorsModelD0Ev@ABI_5_1 4:4.12.80
- _ZN14OperatorsModelD1Ev@ABI_5_1 4:4.12.80
- _ZN14OperatorsModelD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN14OperatorsModelD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN14OperatorsModelD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN14OperatorsModelD2Ev@ABI_5_1 4:4.12.80
  _ZN18AlgebraHighlighter14highlightBlockERK7QString@ABI_5_1 4:4.12.80
  _ZN18AlgebraHighlighterC1EP13QTextDocumentPKN8Analitza8AnalyzerE@ABI_5_1 4:4.12.80
  _ZN18AlgebraHighlighterC2EP13QTextDocumentPKN8Analitza8AnalyzerE@ABI_5_1 4:4.12.80
- _ZN18AlgebraHighlighterD0Ev@ABI_5_1 4:4.12.80
- _ZN18AlgebraHighlighterD1Ev@ABI_5_1 4:4.12.80
- _ZN18AlgebraHighlighterD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN18AlgebraHighlighterD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN18AlgebraHighlighterD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN18AlgebraHighlighterD2Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza11PlotsView2D10paintEventEP11QPaintEvent@ABI_5_1 4:4.12.80
  _ZN8Analitza11PlotsView2D10wheelEventEP11QWheelEvent@ABI_5_1 4:4.12.80
  _ZN8Analitza11PlotsView2D11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.12.80
@@ -109,9 +109,9 @@ libanalitzagui.so.5abi1 libanalitzagui5abi1 #MINVER#
  _ZN8Analitza14VariablesModelC1EPNS_9VariablesEP7QObject@ABI_5_1 4:4.12.80
  _ZN8Analitza14VariablesModelC2EP7QObject@ABI_5_1 4:4.12.80
  _ZN8Analitza14VariablesModelC2EPNS_9VariablesEP7QObject@ABI_5_1 4:4.12.80
- _ZN8Analitza14VariablesModelD0Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza14VariablesModelD1Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza14VariablesModelD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza14VariablesModelD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza14VariablesModelD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza14VariablesModelD2Ev@ABI_5_1 4:4.12.80
  _ZNK14OperatorsModel10headerDataEiN2Qt11OrientationEi@ABI_5_1 4:4.12.80
  _ZNK14OperatorsModel11columnCountERK11QModelIndex@ABI_5_1 4:4.12.80
  _ZNK14OperatorsModel13parameterHelpERK11QModelIndexib@ABI_5_1 4:4.12.80
@@ -141,21 +141,21 @@ libanalitzagui.so.5abi1 libanalitzagui5abi1 #MINVER#
  _ZTIN8Analitza11PlotsView3DE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza14ExpressionEditE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza14VariablesModelE@ABI_5_1 4:4.12.80
- _ZTIN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTIN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  _ZTS14OperatorsModel@ABI_5_1 4:4.12.80
  _ZTS18AlgebraHighlighter@ABI_5_1 4:4.12.80
  _ZTSN8Analitza11PlotsView2DE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza11PlotsView3DE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza14ExpressionEditE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza14VariablesModelE@ABI_5_1 4:4.12.80
- _ZTSN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTSN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  _ZTV14OperatorsModel@ABI_5_1 4:4.12.80
  _ZTV18AlgebraHighlighter@ABI_5_1 4:4.12.80
  _ZTVN8Analitza11PlotsView2DE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza11PlotsView3DE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza14ExpressionEditE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza14VariablesModelE@ABI_5_1 4:4.12.80
- _ZTVN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTVN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  (c++)"non-virtual thunk to Analitza::ExpressionEdit::~ExpressionEdit()@ABI_5_1" 4:4.12.80
  (c++)"non-virtual thunk to Analitza::PlotsView2D::currentFunction() const@ABI_5_1" 4:4.12.80
  (c++)"non-virtual thunk to Analitza::PlotsView2D::modelChanged()@ABI_5_1" 4:4.12.80

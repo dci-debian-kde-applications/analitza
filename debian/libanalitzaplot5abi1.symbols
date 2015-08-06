@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 armhf
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libanalitzaplot.so.5abi1 libanalitzaplot5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.12.80
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@ABI_5_1 4:4.12.80
@@ -198,7 +198,7 @@ libanalitzaplot.so.5abi1 libanalitzaplot5abi1 #MINVER#
  _ZTIN8Analitza12PlotsFactoryE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza13FunctionGraphE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza20PlotsDictionaryModelE@ABI_5_1 4:4.12.80
- _ZTIN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTIN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza7SurfaceE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza8PlotItemE@ABI_5_1 4:4.12.80
  _ZTIN8Analitza9Plotter2DE@ABI_5_1 4:4.12.80
@@ -209,7 +209,7 @@ libanalitzaplot.so.5abi1 libanalitzaplot5abi1 #MINVER#
  _ZTSN8Analitza12PlotsFactoryE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza13FunctionGraphE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza20PlotsDictionaryModelE@ABI_5_1 4:4.12.80
- _ZTSN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTSN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza7SurfaceE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza8PlotItemE@ABI_5_1 4:4.12.80
  _ZTSN8Analitza9Plotter2DE@ABI_5_1 4:4.12.80
@@ -220,7 +220,7 @@ libanalitzaplot.so.5abi1 libanalitzaplot5abi1 #MINVER#
  _ZTVN8Analitza12PlotsFactoryE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza13FunctionGraphE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza20PlotsDictionaryModelE@ABI_5_1 4:4.12.80
- _ZTVN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTVN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza7SurfaceE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza8PlotItemE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza9Plotter2DE@ABI_5_1 4:4.12.80

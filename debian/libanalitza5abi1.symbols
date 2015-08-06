@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.80 amd64
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.12.80
  _ZN13AbstractLexer11m_operatorsE@ABI_5_1 4:4.12.80
@@ -24,9 +24,9 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZN23MathMLPresentationLexer8getTokenEv@ABI_5_1 4:4.12.80
  _ZN23MathMLPresentationLexerC1ERK7QString@ABI_5_1 4:4.12.80
  _ZN23MathMLPresentationLexerC2ERK7QString@ABI_5_1 4:4.12.80
- _ZN23MathMLPresentationLexerD0Ev@ABI_5_1 4:4.12.80
- _ZN23MathMLPresentationLexerD1Ev@ABI_5_1 4:4.12.80
- _ZN23MathMLPresentationLexerD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN23MathMLPresentationLexerD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN23MathMLPresentationLexerD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN23MathMLPresentationLexerD2Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza10Expression12computeDepthEPNS_6ObjectE@ABI_5_1 4:4.12.80
  _ZN8Analitza10Expression12setElementAtEiRKS0_@ABI_5_1 4:4.12.80
  _ZN8Analitza10Expression13constructListERK5QListIS0_E@ABI_5_1 4:4.12.80
@@ -132,9 +132,9 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZN8Analitza21ExpressionTypeChecker9inferTypeERKNS_14ExpressionTypeES3_P4QMapI7QStringS1_E@ABI_5_1 4:4.12.80
  _ZN8Analitza21ExpressionTypeCheckerC1EPNS_9VariablesE@ABI_5_1 4:4.12.80
  _ZN8Analitza21ExpressionTypeCheckerC2EPNS_9VariablesE@ABI_5_1 4:4.12.80
- _ZN8Analitza21ExpressionTypeCheckerD0Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza21ExpressionTypeCheckerD1Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza21ExpressionTypeCheckerD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza21ExpressionTypeCheckerD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza21ExpressionTypeCheckerD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza21ExpressionTypeCheckerD2Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza25AbstractExpressionVisitorD0Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza25AbstractExpressionVisitorD1Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza25AbstractExpressionVisitorD2Ev@ABI_5_1 4:4.12.80
@@ -151,9 +151,9 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZN8Analitza2Cn8setValueEb@ABI_5_1 4:4.12.80
  _ZN8Analitza2Cn8setValueEi@ABI_5_1 4:4.12.80
  _ZN8Analitza2Cn8setValueEj@ABI_5_1 4:4.12.80
- _ZN8Analitza2CnD0Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza2CnD1Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza2CnD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza2CnD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza2CnD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza2CnD2Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza4List12appendBranchEPNS_6ObjectE@ABI_5_1 4:4.12.80
  _ZN8Analitza4ListC1ERKS0_@ABI_5_1 4:4.12.80
  _ZN8Analitza4ListC1Ev@ABI_5_1 4:4.12.80
@@ -207,6 +207,7 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZN8Analitza8Analyzer14insertVariableERK7QStringRKNS_10ExpressionE@ABI_5_1 4:4.12.80
  _ZN8Analitza8Analyzer15alphaConversionEPNS_5ApplyEi@ABI_5_1 4:4.12.80
  _ZN8Analitza8Analyzer15alphaConversionEPNS_9ContainerEi@ABI_5_1 4:4.12.80
+ (optional=templinst)_ZN8Analitza8Analyzer15alphaConversionINS_9MatrixRowEPPNS_6ObjectEEEvPT_i@ABI_5_1 4:4.14.0
  _ZN8Analitza8Analyzer15calculateLambdaEv@ABI_5_1 4:4.12.80
  _ZN8Analitza8Analyzer15initializeBVarsEPKNS_5ApplyEi@ABI_5_1 4:4.12.80
  _ZN8Analitza8Analyzer15simpPolynomialsEPNS_5ApplyE@ABI_5_1 4:4.12.80
@@ -255,9 +256,9 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZN8Analitza9ContainerC2ERKS0_@ABI_5_1 4:4.12.80
  _ZN8Analitza9MatrixRowC1Ei@ABI_5_1 4:4.12.80
  _ZN8Analitza9MatrixRowC2Ei@ABI_5_1 4:4.12.80
- _ZN8Analitza9MatrixRowD0Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza9MatrixRowD1Ev@ABI_5_1 4:4.12.80
- _ZN8Analitza9MatrixRowD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza9MatrixRowD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza9MatrixRowD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8Analitza9MatrixRowD2Ev@ABI_5_1 4:4.12.80
  _ZN8Analitza9Variables19initializeConstantsEv@ABI_5_1 4:4.12.80
  _ZN8Analitza9Variables6modifyERK7QStringPKNS_6ObjectE@ABI_5_1 4:4.12.80
  _ZN8Analitza9Variables6modifyERK7QStringRKNS_10ExpressionE@ABI_5_1 4:4.12.80
@@ -273,9 +274,9 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZN8ExpLexer8getTokenEv@ABI_5_1 4:4.12.80
  _ZN8ExpLexerC1ERK7QString@ABI_5_1 4:4.12.80
  _ZN8ExpLexerC2ERK7QString@ABI_5_1 4:4.12.80
- _ZN8ExpLexerD0Ev@ABI_5_1 4:4.12.80
- _ZN8ExpLexerD1Ev@ABI_5_1 4:4.12.80
- _ZN8ExpLexerD2Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8ExpLexerD0Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8ExpLexerD1Ev@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZN8ExpLexerD2Ev@ABI_5_1 4:4.12.80
  _ZNK13AbstractLexer10printQueueERK6QQueueINS_5TOKENEE@ABI_5_1 4:4.12.80
  _ZNK8Analitza10Expression10isEquationEv@ABI_5_1 4:4.12.80
  _ZNK8Analitza10Expression10lambdaBodyEv@ABI_5_1 4:4.12.80
@@ -422,7 +423,7 @@ libanalitza.so.5abi1 libanalitza5abi1 #MINVER#
  _ZTVN8Analitza4ListE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza5ApplyE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza6MatrixE@ABI_5_1 4:4.12.80
- _ZTVN8Analitza6ObjectE@ABI_5_1 4:4.12.80
+ (optional=gccinternal)_ZTVN8Analitza6ObjectE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza6VectorE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza8OperatorE@ABI_5_1 4:4.12.80
  _ZTVN8Analitza9ContainerE@ABI_5_1 4:4.12.80

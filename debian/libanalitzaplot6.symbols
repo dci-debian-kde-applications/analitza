@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64 armhf i386 ppc64el
+# SymbolsHelper-Confirmed: 4:15.04.3 amd64
 libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:14.11.97
@@ -198,7 +198,7 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZTIN8Analitza12PlotsFactoryE@Base 4:14.11.97
  _ZTIN8Analitza13FunctionGraphE@Base 4:14.11.97
  _ZTIN8Analitza20PlotsDictionaryModelE@Base 4:14.11.97
- _ZTIN8Analitza6ObjectE@Base 4:14.11.97
+ (optional)_ZTIN8Analitza6ObjectE@Base 4:14.11.97
  _ZTIN8Analitza7SurfaceE@Base 4:14.11.97
  _ZTIN8Analitza8PlotItemE@Base 4:14.11.97
  _ZTIN8Analitza9Plotter2DE@Base 4:14.11.97
@@ -209,7 +209,7 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZTSN8Analitza12PlotsFactoryE@Base 4:14.11.97
  _ZTSN8Analitza13FunctionGraphE@Base 4:14.11.97
  _ZTSN8Analitza20PlotsDictionaryModelE@Base 4:14.11.97
- _ZTSN8Analitza6ObjectE@Base 4:14.11.97
+ (optional)_ZTSN8Analitza6ObjectE@Base 4:14.11.97
  _ZTSN8Analitza7SurfaceE@Base 4:14.11.97
  _ZTSN8Analitza8PlotItemE@Base 4:14.11.97
  _ZTSN8Analitza9Plotter2DE@Base 4:14.11.97
@@ -220,7 +220,7 @@ libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
  _ZTVN8Analitza12PlotsFactoryE@Base 4:14.11.97
  _ZTVN8Analitza13FunctionGraphE@Base 4:14.11.97
  _ZTVN8Analitza20PlotsDictionaryModelE@Base 4:14.11.97
- _ZTVN8Analitza6ObjectE@Base 4:14.11.97
+ (optional)_ZTVN8Analitza6ObjectE@Base 4:14.11.97
  _ZTVN8Analitza7SurfaceE@Base 4:14.11.97
  _ZTVN8Analitza8PlotItemE@Base 4:14.11.97
  _ZTVN8Analitza9Plotter2DE@Base 4:14.11.97

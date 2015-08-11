@@ -1,6 +1,12 @@
 analitza (4:15.04.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - Mark as optional the symbols gone after building witth GCC 5
+    - Keep an optional symbol gone after building wih GCC 4
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 16:54:21 +0000
 

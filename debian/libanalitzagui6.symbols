@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64
 libAnalitzaGui.so.6 libanalitzagui6 #MINVER#
  _ZN14OperatorsModel11descriptionERKN8Analitza8OperatorE@Base 4:14.11.97
  _ZN14OperatorsModel17updateInformationEv@Base 4:14.11.97
@@ -7,15 +7,15 @@ libAnalitzaGui.so.6 libanalitzagui6 #MINVER#
  _ZN14OperatorsModel7exampleERKN8Analitza8OperatorE@Base 4:14.11.97
  _ZN14OperatorsModelC1EP7QObject@Base 4:14.11.97
  _ZN14OperatorsModelC2EP7QObject@Base 4:14.11.97
- _ZN14OperatorsModelD0Ev@Base 4:14.11.97
- _ZN14OperatorsModelD1Ev@Base 4:14.11.97
- _ZN14OperatorsModelD2Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN14OperatorsModelD0Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN14OperatorsModelD1Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN14OperatorsModelD2Ev@Base 4:14.11.97
  _ZN18AlgebraHighlighter14highlightBlockERK7QString@Base 4:14.11.97
  _ZN18AlgebraHighlighterC1EP13QTextDocumentPKN8Analitza8AnalyzerE@Base 4:14.11.97
  _ZN18AlgebraHighlighterC2EP13QTextDocumentPKN8Analitza8AnalyzerE@Base 4:14.11.97
- _ZN18AlgebraHighlighterD0Ev@Base 4:14.11.97
- _ZN18AlgebraHighlighterD1Ev@Base 4:14.11.97
- _ZN18AlgebraHighlighterD2Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN18AlgebraHighlighterD0Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN18AlgebraHighlighterD1Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN18AlgebraHighlighterD2Ev@Base 4:14.11.97
  _ZN8Analitza14VariablesModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
  _ZN8Analitza14VariablesModel11qt_metacastEPKc@Base 4:14.11.97
  _ZN8Analitza14VariablesModel12setVariablesEPNS_9VariablesE@Base 4:14.11.97
@@ -27,9 +27,9 @@ libAnalitzaGui.so.6 libanalitzagui6 #MINVER#
  _ZN8Analitza14VariablesModelC1EPNS_9VariablesEP7QObject@Base 4:14.11.97
  _ZN8Analitza14VariablesModelC2EP7QObject@Base 4:14.11.97
  _ZN8Analitza14VariablesModelC2EPNS_9VariablesEP7QObject@Base 4:14.11.97
- _ZN8Analitza14VariablesModelD0Ev@Base 4:14.11.97
- _ZN8Analitza14VariablesModelD1Ev@Base 4:14.11.97
- _ZN8Analitza14VariablesModelD2Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN8Analitza14VariablesModelD0Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN8Analitza14VariablesModelD1Ev@Base 4:14.11.97
+ (optional=gccinternal)_ZN8Analitza14VariablesModelD2Ev@Base 4:14.11.97
  _ZNK14OperatorsModel10headerDataEiN2Qt11OrientationEi@Base 4:14.11.97
  _ZNK14OperatorsModel11columnCountERK11QModelIndex@Base 4:14.11.97
  _ZNK14OperatorsModel13parameterHelpERK11QModelIndexib@Base 4:14.11.97
@@ -47,12 +47,9 @@ libAnalitzaGui.so.6 libanalitzagui6 #MINVER#
  _ZTI14OperatorsModel@Base 4:14.11.97
  _ZTI18AlgebraHighlighter@Base 4:14.11.97
  _ZTIN8Analitza14VariablesModelE@Base 4:14.11.97
- _ZTIN8Analitza6ObjectE@Base 4:14.11.97
  _ZTS14OperatorsModel@Base 4:14.11.97
  _ZTS18AlgebraHighlighter@Base 4:14.11.97
  _ZTSN8Analitza14VariablesModelE@Base 4:14.11.97
- _ZTSN8Analitza6ObjectE@Base 4:14.11.97
  _ZTV14OperatorsModel@Base 4:14.11.97
  _ZTV18AlgebraHighlighter@Base 4:14.11.97
  _ZTVN8Analitza14VariablesModelE@Base 4:14.11.97
- _ZTVN8Analitza6ObjectE@Base 4:14.11.97

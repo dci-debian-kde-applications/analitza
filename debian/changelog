@@ -3,6 +3,7 @@ analitza (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.0).
   * Update symbols files.
   * New upstream release (15.08.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 22:07:16 +0200
 

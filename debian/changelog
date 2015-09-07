@@ -1,4 +1,4 @@
-analitza (4:15.08.0-1~) UNRELEASED; urgency=medium
+analitza (4:15.08.0-1) experimental; urgency=medium
 
   * New upstream release (15.04.0).
   * Update symbols files.
@@ -6,7 +6,7 @@ analitza (4:15.08.0-1~) UNRELEASED; urgency=medium
   * Update symbols files.
   * Update copyright file.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 22:07:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 18:05:12 +0200
 
 analitza (4:14.12.3-0ubuntu2) vivid; urgency=medium
 

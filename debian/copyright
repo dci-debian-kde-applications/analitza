@@ -9,6 +9,7 @@ Copyright: 2007, Abderrahman Taha: Basic OpenGL calls like scene, lights
            2006, Paul C. Gregory
            2010-2014, Percy Camilo T. Aucahuasi <percy.camilo.ta@gmail.com>
            2014, Percy Camilo T. Aucahuasi <percy.camilo.ta\gmail.com>
+           2012, Pino Toscano <pino@kde.org>
 License: GPL-2+
 
 Files: cmake/FindEigen3.cmake

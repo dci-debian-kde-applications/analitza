@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.04.3 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0856 amd64 i386
 libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN13AbstractLexer11m_operatorsE@Base 4:14.11.97
  _ZN13AbstractLexer15m_longOperatorsE@Base 4:14.11.97
@@ -23,9 +23,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN23MathMLPresentationLexer8getTokenEv@Base 4:14.11.97
  _ZN23MathMLPresentationLexerC1ERK7QString@Base 4:14.11.97
  _ZN23MathMLPresentationLexerC2ERK7QString@Base 4:14.11.97
- (optional)_ZN23MathMLPresentationLexerD0Ev@Base 4:14.11.97
- (optional)_ZN23MathMLPresentationLexerD1Ev@Base 4:14.11.97
- (optional)_ZN23MathMLPresentationLexerD2Ev@Base 4:14.11.97
  _ZN8Analitza10Expression12computeDepthEPNS_6ObjectE@Base 4:14.11.97
  _ZN8Analitza10Expression12setElementAtEiRKS0_@Base 4:14.11.97
  _ZN8Analitza10Expression13constructListERK5QListIS0_E@Base 4:14.11.97
@@ -111,7 +108,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN8Analitza21ExpressionTypeChecker14initializeVarsERK4QMapI7QStringNS_14ExpressionTypeEE@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeChecker16tellTypeIdentityERK7QStringRKNS_14ExpressionTypeE@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza21ExpressionTypeChecker17visitListOrVectorINS_4ListEEE8QVariantPKT_NS_14ExpressionType4TypeEi@Base 4:14.11.97
- (optional=templinst)_ZN8Analitza21ExpressionTypeChecker17visitListOrVectorINS_6VectorEEE8QVariantPKT_NS_14ExpressionType4TypeEi@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza21ExpressionTypeChecker17visitListOrVectorINS_9MatrixRowEEE8QVariantPKT_NS_14ExpressionType4TypeEi@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeChecker5checkERKNS_10ExpressionE@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeChecker5solveEPKNS_8OperatorERK7QVectorIPNS_6ObjectEE@Base 4:14.11.97
@@ -133,9 +129,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN8Analitza21ExpressionTypeChecker9inferTypeERKNS_14ExpressionTypeES3_P4QMapI7QStringS1_E@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeCheckerC1EPNS_9VariablesE@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeCheckerC2EPNS_9VariablesE@Base 4:14.11.97
- (optional)_ZN8Analitza21ExpressionTypeCheckerD0Ev@Base 4:14.11.97
- (optional)_ZN8Analitza21ExpressionTypeCheckerD1Ev@Base 4:14.11.97
- (optional)_ZN8Analitza21ExpressionTypeCheckerD2Ev@Base 4:14.11.97
  _ZN8Analitza25AbstractExpressionVisitorD0Ev@Base 4:14.11.97
  _ZN8Analitza25AbstractExpressionVisitorD1Ev@Base 4:14.11.97
  _ZN8Analitza25AbstractExpressionVisitorD2Ev@Base 4:14.11.97
@@ -153,9 +146,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN8Analitza2Cn8setValueEb@Base 4:14.11.97
  _ZN8Analitza2Cn8setValueEi@Base 4:14.11.97
  _ZN8Analitza2Cn8setValueEj@Base 4:14.11.97
- (optional)_ZN8Analitza2CnD0Ev@Base 4:14.11.97
- (optional)_ZN8Analitza2CnD1Ev@Base 4:14.11.97
- (optional)_ZN8Analitza2CnD2Ev@Base 4:14.11.97
  _ZN8Analitza4List12appendBranchEPNS_6ObjectE@Base 4:14.11.97
  _ZN8Analitza4ListC1ERKS0_@Base 4:14.11.97
  _ZN8Analitza4ListC1Ev@Base 4:14.11.97
@@ -213,7 +203,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN8Analitza8Analyzer14insertVariableERK7QStringPKNS_6ObjectE@Base 4:14.11.97
  _ZN8Analitza8Analyzer14insertVariableERK7QStringRKNS_10ExpressionE@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza8Analyzer14iterateAndSimpINS_6MatrixEN5QListIPNS_9MatrixRowEE8iteratorES4_EEvPT_@Base 4:14.11.97
- (optional)(optional=templinst|arch=i386)_ZN8Analitza8Analyzer14iterateAndSimpINS_9ContainerEN5QListIPNS_6ObjectEE8iteratorES4_EEvPT_@Base 4:14.12.3
  _ZN8Analitza8Analyzer15alphaConversionEPNS_5ApplyEi@Base 4:14.11.97
  _ZN8Analitza8Analyzer15alphaConversionEPNS_9ContainerEi@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza8Analyzer15alphaConversionINS_6MatrixEN5QListIPNS_9MatrixRowEE8iteratorES4_EEvPT_i@Base 4:14.11.97
@@ -267,9 +256,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN8Analitza9ContainerC2ERKS0_@Base 4:14.11.97
  _ZN8Analitza9MatrixRowC1Ei@Base 4:14.11.97
  _ZN8Analitza9MatrixRowC2Ei@Base 4:14.11.97
- (optional)_ZN8Analitza9MatrixRowD0Ev@Base 4:14.11.97
- (optional)_ZN8Analitza9MatrixRowD1Ev@Base 4:14.11.97
- (optional)_ZN8Analitza9MatrixRowD2Ev@Base 4:14.11.97
  _ZN8Analitza9Variables19initializeConstantsEv@Base 4:14.11.97
  _ZN8Analitza9Variables6modifyERK7QStringPKNS_6ObjectE@Base 4:14.11.97
  _ZN8Analitza9Variables6modifyERK7QStringRKNS_10ExpressionE@Base 4:14.11.97
@@ -285,9 +271,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZN8ExpLexer8getTokenEv@Base 4:14.11.97
  _ZN8ExpLexerC1ERK7QString@Base 4:14.11.97
  _ZN8ExpLexerC2ERK7QString@Base 4:14.11.97
- (optional)_ZN8ExpLexerD0Ev@Base 4:14.11.97
- (optional)_ZN8ExpLexerD1Ev@Base 4:14.11.97
- (optional)_ZN8ExpLexerD2Ev@Base 4:14.11.97
  _ZNK13AbstractLexer10printQueueERK6QQueueINS_5TOKENEE@Base 4:14.11.97
  _ZNK8Analitza10Expression10isEquationEv@Base 4:14.11.97
  _ZNK8Analitza10Expression10lambdaBodyEv@Base 4:14.11.97
@@ -449,7 +432,6 @@ libAnalitza.so.6 libanalitza6 #MINVER#
  _ZTVN8Analitza4NoneE@Base 4:14.11.97
  _ZTVN8Analitza5ApplyE@Base 4:14.11.97
  _ZTVN8Analitza6MatrixE@Base 4:14.11.97
- (optional)_ZTVN8Analitza6ObjectE@Base 4:14.11.97
  _ZTVN8Analitza6VectorE@Base 4:14.11.97
  _ZTVN8Analitza8OperatorE@Base 4:14.11.97
  _ZTVN8Analitza9ContainerE@Base 4:14.11.97

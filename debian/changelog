@@ -1,6 +1,6 @@
 analitza (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release (15.08.1)
+  * New upstream release (15.18.1)
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 22:41:53 +0100
 
@@ -35,7 +35,7 @@ analitza (4:15.04.2-0ubuntu1) wily; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015.08.19:01 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:19:01 +0200
 
 analitza (4:14.12.3-0ubuntu2) vivid; urgency=medium
 

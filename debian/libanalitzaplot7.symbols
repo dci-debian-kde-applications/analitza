@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0856 amd64 i386
-libAnalitzaPlot.so.6 libanalitzaplot6 #MINVER#
+libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve7tangentERK7QPointF@Base 4:14.11.97

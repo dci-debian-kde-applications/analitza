@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0856 amd64 i386
-libAnalitzaGui.so.6 libanalitzagui6 #MINVER#
+libAnalitzaGui.so.7 libanalitzagui7 #MINVER#
  _ZN14OperatorsModel11descriptionERKN8Analitza8OperatorE@Base 4:14.11.97
  _ZN14OperatorsModel17updateInformationEv@Base 4:14.11.97
  _ZN14OperatorsModel24standardFunctionCallHelpERK7QStringiibb@Base 4:14.11.97

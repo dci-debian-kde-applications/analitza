@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0856 amd64 i386
-libAnalitza.so.6 libanalitza6 #MINVER#
+libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN13AbstractLexer11m_operatorsE@Base 4:14.11.97
  _ZN13AbstractLexer15m_longOperatorsE@Base 4:14.11.97
  _ZN13AbstractLexer20isCompleteExpressionEb@Base 4:14.11.97

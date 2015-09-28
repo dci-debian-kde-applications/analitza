@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:14.11.97 amd64 arm64 armhf i386 powerpc ppc64el
-libAnalitzaWidgets.so.6 libanalitzawidgets6 #MINVER#
+libAnalitzaWidgets.so.7 libanalitzawidgets7 #MINVER#
  _ZN8Analitza11PlotsView2D10paintEventEP11QPaintEvent@Base 4:14.11.97
  _ZN8Analitza11PlotsView2D10wheelEventEP11QWheelEvent@Base 4:14.11.97
  _ZN8Analitza11PlotsView2D11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97

@@ -36,10 +36,10 @@ Package: libanalitza-dev
 Architecture: any
 Section: libdevel
 Conflicts: kalgebra-dev
-Depends: libanalitza6 (= ${binary:Version}),
-         libanalitzagui6 (= ${binary:Version}),
-         libanalitzaplot6 (= ${binary:Version}),
-         libanalitzawidgets6 (= ${binary:Version}),
+Depends: libanalitza7 (= ${binary:Version}),
+         libanalitzagui7 (= ${binary:Version}),
+         libanalitzaplot7 (= ${binary:Version}),
+         libanalitzawidgets7 (= ${binary:Version}),
          qml-module-org-kde-analitza (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for Analitza
@@ -52,7 +52,7 @@ Description: development files for Analitza
  .
  This package is part of the KDE education module.
 
-Package: libanalitza6
+Package: libanalitza7
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions
@@ -61,7 +61,7 @@ Description: library to work with mathematical expressions
  .
  This package is part of the KDE education module.
 
-Package: libanalitzawidgets6
+Package: libanalitzawidgets7
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions - widgets
@@ -70,7 +70,7 @@ Description: library to work with mathematical expressions - widgets
  .
  This package is part of the KDE education module.
 
-Package: libanalitzagui6
+Package: libanalitzagui7
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
@@ -82,7 +82,7 @@ Description: library to work with mathematical expressions - GUI routines
  .
  This package is part of the KDE education module.
 
-Package: libanalitzaplot6
+Package: libanalitzaplot7
 Architecture: any
 Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kalgebra (<< 4:4.7.2)
@@ -108,9 +108,9 @@ Package: libanalitza-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libanalitza6 (= ${binary:Version}),
-         libanalitzagui6 (= ${binary:Version}),
-         libanalitzaplot6 (= ${binary:Version}),
+Depends: libanalitza7 (= ${binary:Version}),
+         libanalitzagui7 (= ${binary:Version}),
+         libanalitzaplot7 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)
 Replaces: kalgebra-dbg (<< 4:4.8), kdeedu-dbg (<< 4:4.6.80)

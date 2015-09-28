@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:15.08.1+git20150928.0712+15.10 amd64 i386
 libAnalitzaWidgets.so.7 libanalitzawidgets7 #MINVER#
  _ZN8Analitza11PlotsView2D10paintEventEP11QPaintEvent@Base 4:14.11.97
  _ZN8Analitza11PlotsView2D10wheelEventEP11QWheelEvent@Base 4:14.11.97
@@ -49,6 +49,28 @@ libAnalitzaWidgets.so.7 libanalitzawidgets7 #MINVER#
  (arch=!armhf)_ZN8Analitza11PlotsView3DD0Ev@Base 4:14.11.97
  (arch=!armhf)_ZN8Analitza11PlotsView3DD1Ev@Base 4:14.11.97
  (arch=!armhf)_ZN8Analitza11PlotsView3DD2Ev@Base 4:14.11.97
+ _ZN8Analitza13PlotsView3DES10wheelEventEP11QWheelEvent@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES11qt_metacastEPKc@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES11removeFuncsERK11QModelIndexii@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES11updateFuncsERK11QModelIndexS3_@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES12initializeGLEv@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES12modelChangedEv@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES13keyPressEventEP9QKeyEvent@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES14mouseMoveEventEP11QMouseEvent@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES15mousePressEventEP11QMouseEvent@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES16staticMetaObjectE@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES17setSelectionModelEP19QItemSelectionModel@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES7paintGLEv@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES8addFuncsERK11QModelIndexii@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES8renderGLEv@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES8resizeGLEii@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DES9resetViewEv@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DESC1EP7QWidget@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DESC2EP7QWidget@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DESD0Ev@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DESD1Ev@Base 4:15.08.1+git20150928.0712+15.10
+ _ZN8Analitza13PlotsView3DESD2Ev@Base 4:15.08.1+git20150928.0712+15.10
  _ZN8Analitza14ExpressionEdit10insertTextERK7QString@Base 4:14.11.97
  _ZN8Analitza14ExpressionEdit10setCorrectEb@Base 4:14.11.97
  _ZN8Analitza14ExpressionEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.11.97
@@ -84,6 +106,7 @@ libAnalitzaWidgets.so.7 libanalitzawidgets7 #MINVER#
  _ZNK8Analitza11PlotsView2D15currentFunctionEv@Base 4:14.11.97
  _ZNK8Analitza11PlotsView2D15definedViewportEv@Base 4:14.11.97
  (arch=!armhf)_ZNK8Analitza11PlotsView3D10metaObjectEv@Base 4:14.11.97
+ _ZNK8Analitza13PlotsView3DES10metaObjectEv@Base 4:15.08.1+git20150928.0712+15.10
  _ZNK8Analitza14ExpressionEdit10expressionEv@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit10metaObjectEv@Base 4:14.11.97
  _ZNK8Analitza14ExpressionEdit8helpShowERK7QStringibPKNS_9VariablesE@Base 4:14.11.97
@@ -91,12 +114,15 @@ libAnalitzaWidgets.so.7 libanalitzawidgets7 #MINVER#
  _ZNK8Analitza14ExpressionEdit9isCorrectEv@Base 4:14.11.97
  _ZTIN8Analitza11PlotsView2DE@Base 4:14.11.97
  (arch=!armhf)_ZTIN8Analitza11PlotsView3DE@Base 4:14.11.97
+ _ZTIN8Analitza13PlotsView3DESE@Base 4:15.08.1+git20150928.0712+15.10
  _ZTIN8Analitza14ExpressionEditE@Base 4:14.11.97
  _ZTSN8Analitza11PlotsView2DE@Base 4:14.11.97
  (arch=!armhf)_ZTSN8Analitza11PlotsView3DE@Base 4:14.11.97
+ _ZTSN8Analitza13PlotsView3DESE@Base 4:15.08.1+git20150928.0712+15.10
  _ZTSN8Analitza14ExpressionEditE@Base 4:14.11.97
  _ZTVN8Analitza11PlotsView2DE@Base 4:14.11.97
  (arch=!armhf)_ZTVN8Analitza11PlotsView3DE@Base 4:14.11.97
+ _ZTVN8Analitza13PlotsView3DESE@Base 4:15.08.1+git20150928.0712+15.10
  _ZTVN8Analitza14ExpressionEditE@Base 4:14.11.97
  (c++)"non-virtual thunk to Analitza::ExpressionEdit::~ExpressionEdit()@Base" 4:14.11.97
  (c++)"non-virtual thunk to Analitza::PlotsView2D::currentFunction() const@Base" 4:14.11.97
@@ -106,3 +132,6 @@ libAnalitzaWidgets.so.7 libanalitzawidgets7 #MINVER#
  (c++|arch=!armhf)"non-virtual thunk to Analitza::PlotsView3D::modelChanged()@Base" 4:14.11.97
  (c++|arch=!armhf)"non-virtual thunk to Analitza::PlotsView3D::renderGL()@Base" 4:14.11.97
  (c++|arch=!armhf)"non-virtual thunk to Analitza::PlotsView3D::~PlotsView3D()@Base" 4:14.11.97
+ (c++)"non-virtual thunk to Analitza::PlotsView3DES::modelChanged()@Base" 4:15.08.1+git20150928.0712+15.10
+ (c++)"non-virtual thunk to Analitza::PlotsView3DES::renderGL()@Base" 4:15.08.1+git20150928.0712+15.10
+ (c++)"non-virtual thunk to Analitza::PlotsView3DES::~PlotsView3DES()@Base" 4:15.08.1+git20150928.0712+15.10

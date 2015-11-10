@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20150930.0036+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151110.0041+15.10 amd64 i386
 libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:14.11.97
@@ -172,6 +172,7 @@ libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZNK8Analitza10PlotsModel5flagsERK11QModelIndex@Base 4:14.11.97
  _ZNK8Analitza10PlotsModel6freeIdEv@Base 4:14.11.97
  _ZNK8Analitza10PlotsModel8rowCountERK11QModelIndex@Base 4:14.11.97
+ _ZNK8Analitza10PlotsModel9roleNamesEv@Base 4:15.08.2+git20151110.0041+15.10
  _ZNK8Analitza10SpaceCurve5jumpsEv@Base 4:14.11.97
  _ZNK8Analitza10SpaceCurve6pointsEv@Base 4:14.11.97
  _ZNK8Analitza11PlotBuilder10expressionEv@Base 4:14.11.97

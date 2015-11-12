@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2+git20151110.0041+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151112.0121+16.04 amd64 i386
 libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:14.11.97
@@ -121,6 +121,7 @@ libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZN8Analitza9Plotter2D14setPaintedSizeERK5QSize@Base 4:14.11.97
  _ZN8Analitza9Plotter2D15updateFunctionsERK11QModelIndexii@Base 4:14.11.97
  _ZN8Analitza9Plotter2D16setGridStyleHintENS_9GridStyleE@Base 4:14.11.97
+ _ZN8Analitza9Plotter2D16setShowMinorGridEb@Base 4:15.08.2+git20151112.0121+16.04
  _ZN8Analitza9Plotter2D17m_derivativeColorE@Base 4:14.11.97
  _ZN8Analitza9Plotter2D18setKeepAspectRatioEb@Base 4:14.11.97
  _ZN8Analitza9Plotter2D21normalizeUserViewportE6QRectF@Base 4:14.11.97

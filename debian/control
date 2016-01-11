@@ -3,22 +3,25 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.7.0~),
                libeigen3-dev,
+               libglew-dev,
                libncurses5-dev,
-               libqt5opengl5-dev,
-               libqt5svg5-dev,
+               libqt5opengl5-dev (>= 5.4),
+               libqt5svg5-dev (>= 5.4),
                libreadline-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtdeclarative5-dev
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/analitza.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/analitza.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/analitza.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/analitza.git
 
 Package: analitza-common
 Architecture: all
@@ -41,6 +44,7 @@ Depends: libanalitza7 (= ${binary:Version}),
          libanalitzaplot7 (= ${binary:Version}),
          libanalitzawidgets7 (= ${binary:Version}),
          qml-module-org-kde-analitza (= ${binary:Version}),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This

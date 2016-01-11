@@ -1,6 +1,10 @@
 analitza (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Philip Muškovac ]
+  * Merge with debian git master
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:22:46 +0000
 
@@ -23,6 +27,16 @@ analitza (4:15.08.1-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:03:09 +0100
 
+analitza (4:15.08.0-1) experimental; urgency=medium
+
+  * New upstream release (15.04.0).
+  * Update symbols files.
+  * New upstream release (15.08.0).
+  * Update symbols files.
+  * Update copyright file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Sep 2015 18:05:12 +0200
+
 analitza (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
@@ -44,23 +58,10 @@ analitza (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 08:54:52 +0100
 
-analitza (4:15.04.2-0ubuntu1) wily; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release
-  * New upstream release
-  * Vivid backport
-
-  [ Jonathan Riddell ]
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:19:01 +0200
-
 analitza (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
    * Fix tests. Calling kdeinit4 in kf5 builds are not going to
     get very far.
-
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 18:30:09 -0700
 
@@ -69,6 +70,15 @@ analitza (4:14.12.3-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:54:55 -0700
+
+analitza (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 16 Feb 2015 14:55:00 +0100
 
 analitza (4:14.12.2-0ubuntu1) vivid; urgency=medium
 

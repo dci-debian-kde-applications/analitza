@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    14.12.2
+</version>
+
+<headers>
+    /usr/include/Analitza5/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitza.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitzaGui.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitzaPlot.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libAnalitzaWidgets.so
+</libs>
+
+<gcc_options>
+    -fPIC
+    -std=c++11
+</gcc_options>
+
+</descriptor>

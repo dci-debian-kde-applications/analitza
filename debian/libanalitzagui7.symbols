@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libAnalitzaGui.so.7 libanalitzagui7 #MINVER#
  _ZN14OperatorsModel11descriptionERKN8Analitza8OperatorE@Base 4:14.11.97
  _ZN14OperatorsModel17updateInformationEv@Base 4:14.11.97

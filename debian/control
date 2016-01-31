@@ -101,17 +101,3 @@ Description: library to work with mathematical expressions - QML library
  to plotting.
  .
  This package is part of the KDE education module.
-
-Package: libanalitza-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: libanalitza7 (= ${binary:Version}),
-         libanalitzagui7 (= ${binary:Version}),
-         libanalitzaplot7 (= ${binary:Version}),
-         ${misc:Depends}
-Description: debugging symbols for Analitza
- This package contains debugging files used to investigate problems with
- libraries and binaries included in Analitza.
- .
- This package is part of the KDE education module.

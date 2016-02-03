@@ -1,6 +1,9 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0856 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.1+git20160129.0726+16.04 amd64 i386
 libAnalitzaGui.so.7 libanalitzagui7 #MINVER#
  _ZN14OperatorsModel11descriptionERKN8Analitza8OperatorE@Base 4:14.11.97
+ _ZN14OperatorsModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1+git20160129.0726+16.04
+ _ZN14OperatorsModel11qt_metacastEPKc@Base 4:15.12.1+git20160129.0726+16.04
+ _ZN14OperatorsModel16staticMetaObjectE@Base 4:15.12.1+git20160129.0726+16.04
  _ZN14OperatorsModel17updateInformationEv@Base 4:14.11.97
  _ZN14OperatorsModel24standardFunctionCallHelpERK7QStringiibb@Base 4:14.11.97
  _ZN14OperatorsModel6sampleERKN8Analitza8OperatorE@Base 4:14.11.97
@@ -22,6 +25,7 @@ libAnalitzaGui.so.7 libanalitzagui7 #MINVER#
  _ZN8Analitza14VariablesModelC2EP7QObject@Base 4:14.11.97
  _ZN8Analitza14VariablesModelC2EPNS_9VariablesEP7QObject@Base 4:14.11.97
  _ZNK14OperatorsModel10headerDataEiN2Qt11OrientationEi@Base 4:14.11.97
+ _ZNK14OperatorsModel10metaObjectEv@Base 4:15.12.1+git20160129.0726+16.04
  _ZNK14OperatorsModel11columnCountERK11QModelIndex@Base 4:14.11.97
  _ZNK14OperatorsModel13parameterHelpERK11QModelIndexib@Base 4:14.11.97
  _ZNK14OperatorsModel20indexForOperatorNameERK7QString@Base 4:14.11.97

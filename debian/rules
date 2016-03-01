@@ -10,4 +10,4 @@ override_dh_makeshlibs:
 	$(overridden_command) -V
 
 override_dh_strip:
-	$(overridden_command) --ddeb-migration='libanalitza-dbg (<= 4:15.12.0-1~~)'
+	$(overridden_command) --dbgsym-migration='libanalitza-dbg (<= 4:15.12.0-1~~)'

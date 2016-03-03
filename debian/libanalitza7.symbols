@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0856 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.12.1+git20160303.2307+16.04 amd64 i386
 libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN13AbstractLexer11m_operatorsE@Base 4:14.11.97
  _ZN13AbstractLexer15m_longOperatorsE@Base 4:14.11.97
@@ -81,6 +81,7 @@ libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN8Analitza14ExpressionType16assumptionsUnionER4QMapI7QStringS0_ERKS3_@Base 4:14.11.97
  _ZN8Analitza14ExpressionType16clearAssumptionsEv@Base 4:14.11.97
  _ZN8Analitza14ExpressionType16matchAssumptionsEP4QMapIiS0_ERKS1_I7QStringS0_ES7_@Base 4:14.11.97
+ _ZN8Analitza14ExpressionType16processContainedERK4QMapIiS0_ERKS0_S6_@Base 4:15.12.1+git20160303.2307+16.04
  _ZN8Analitza14ExpressionType16wrongAssumptionsERK4QMapI7QStringS0_ES5_@Base 4:14.11.97
  _ZN8Analitza14ExpressionType17removeAssumptionsERK11QStringList@Base 4:14.11.97
  _ZN8Analitza14ExpressionType19starsSimplificationERS0_R4QMapIiiERi@Base 4:14.11.97

@@ -1,3 +1,10 @@
+analitza (4:15.12.1-0ubuntu2) xenial; urgency=medium
+
+  * Analitza5Targets.cmake defines a dependency on libGL.so, so make
+    libanalitza-dev depend on libgl1-mesa-dev
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 14 Mar 2016 17:05:29 +0100
+
 analitza (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]

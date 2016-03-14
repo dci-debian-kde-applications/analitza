@@ -4,6 +4,12 @@ analitza (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 20:39:10 -0800
 
+analitza (4:15.12.1-0ubuntu3) xenial; urgency=medium
+
+  * Add libglu1-mesa-dev as that's required as well 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 14 Mar 2016 21:42:21 +0100
+
 analitza (4:15.12.1-0ubuntu2) xenial; urgency=medium
 
   * Analitza5Targets.cmake defines a dependency on libGL.so, so make

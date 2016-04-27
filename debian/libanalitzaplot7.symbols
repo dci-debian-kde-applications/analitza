@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64 armhf
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf i386
 libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZN8Analitza10PlaneCurve5imageERK7QPointF@Base 4:14.11.97
  _ZN8Analitza10PlaneCurve6updateERK6QRectF@Base 4:14.11.97
@@ -31,6 +31,8 @@ libAnalitzaPlot.so.7 libanalitzaplot7 #MINVER#
  _ZN8Analitza10SpaceCurveD0Ev@Base 4:14.11.97
  _ZN8Analitza10SpaceCurveD1Ev@Base 4:14.11.97
  _ZN8Analitza10SpaceCurveD2Ev@Base 4:14.11.97
+ _ZN8Analitza11PlotBuilderC1Ev@Base 4:16.04.0
+ _ZN8Analitza11PlotBuilderC2Ev@Base 4:16.04.0
  _ZN8Analitza11Plotter3DES11fixRotationERK9QVector3D@Base 4:15.12.0
  _ZN8Analitza11Plotter3DES11setViewportERK6QRectF@Base 4:15.12.0
  _ZN8Analitza11Plotter3DES11updatePlotsERK11QModelIndexii@Base 4:15.12.0

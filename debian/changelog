@@ -1,12 +1,13 @@
-analitza (4:16.04.0-1~1.gbpf6806a) UNRELEASED; urgency=medium
+analitza (4:16.04.0-1~2.gbp17215f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f6806a6f092bd256cfc853ecce840d9338248693 **
+  ** SNAPSHOT build @17215f1ed411c2b7c6ad898ecf59be3607e3f8b0 **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
   * UNRELEASED
+  * Update symbols files.
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 03:59:11 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 08:34:11 +0200
 
 analitza (4:15.12.0-2) unstable; urgency=medium
 

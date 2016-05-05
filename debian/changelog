@@ -1,3 +1,11 @@
+analitza (4:16.04.0-2~1.gbp1a94a5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1a94a569b195438a29e484d4cf1f0460d9b36289 **
+
+  * Update symbols files from buildds logs (4:16.04.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 05 May 2016 22:57:22 +0200
+
 analitza (4:16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]

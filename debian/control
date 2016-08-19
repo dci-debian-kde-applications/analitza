@@ -94,7 +94,12 @@ Description: library to work with mathematical expressions - plotting bits
 
 Package: qml-module-org-kde-analitza
 Architecture: any
-Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
+Depends: analitza-common,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: library to work with mathematical expressions - QML library
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions. This library provides the routines related

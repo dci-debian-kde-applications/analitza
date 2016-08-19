@@ -1,3 +1,11 @@
+analitza (4:16.08.0-1~1.gbp46b564) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @46b56452ba162b28e27ce846b60b6f0f0eb12b9e **
+
+  * Update symbols files with the buildds results
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 13:58:57 +0200
+
 analitza (4:16.04.0-2) unstable; urgency=medium
 
   [ Automatic packaging ]

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf hppa i386
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
 libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN13AbstractLexer11m_operatorsE@Base 4:14.11.97
  _ZN13AbstractLexer15m_longOperatorsE@Base 4:14.11.97
@@ -109,6 +109,7 @@ libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN8Analitza21ExpressionTypeChecker14initializeVarsERK4QMapI7QStringNS_14ExpressionTypeEE@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeChecker16tellTypeIdentityERK7QStringRKNS_14ExpressionTypeE@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza21ExpressionTypeChecker17visitListOrVectorINS_4ListEEE8QVariantPKT_NS_14ExpressionType4TypeEi@Base 4:14.11.97
+ (optional=templinst)_ZN8Analitza21ExpressionTypeChecker17visitListOrVectorINS_6VectorEEE8QVariantPKT_NS_14ExpressionType4TypeEi@Base 4:16.08.0
  (optional=templinst)_ZN8Analitza21ExpressionTypeChecker17visitListOrVectorINS_9MatrixRowEEE8QVariantPKT_NS_14ExpressionType4TypeEi@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeChecker5checkERKNS_10ExpressionE@Base 4:14.11.97
  _ZN8Analitza21ExpressionTypeChecker5solveEPKNS_8OperatorERK7QVectorIPNS_6ObjectEE@Base 4:14.11.97
@@ -207,7 +208,7 @@ libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN8Analitza8Analyzer15alphaConversionEPNS_5ApplyEi@Base 4:14.11.97
  _ZN8Analitza8Analyzer15alphaConversionEPNS_9ContainerEi@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza8Analyzer15alphaConversionINS_6MatrixEN5QListIPNS_9MatrixRowEE8iteratorES4_EEvPT_i@Base 4:14.11.97
- (optional=templinst)_ZN8Analitza8Analyzer15alphaConversionINS_9MatrixRowEN5QListIPNS_6ObjectEE8iteratorES4_EEvPT_i@Base 4:15.04.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN8Analitza8Analyzer15alphaConversionINS_9MatrixRowEN5QListIPNS_6ObjectEE8iteratorES4_EEvPT_i@Base 4:15.04.0
  _ZN8Analitza8Analyzer15calculateLambdaEv@Base 4:14.11.97
  _ZN8Analitza8Analyzer15initializeBVarsEPKNS_5ApplyEi@Base 4:14.11.97
  _ZN8Analitza8Analyzer15simpPolynomialsEPNS_5ApplyE@Base 4:14.11.97

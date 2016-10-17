@@ -1,11 +1,13 @@
-analitza (4:16.08.1-1~1.gbp7cbcf0) UNRELEASED; urgency=medium
+analitza (4:16.08.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @7cbcf00612d0a3b936c04b792a009eb712ef85d2 **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:59:10 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.1)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 21:23:49 +0200
 
 analitza (4:16.04.0-2) unstable; urgency=medium
 

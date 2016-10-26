@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:16.08.1 alpha arm64 armel hppa hurd-i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64 x32
 libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN13AbstractLexer11m_operatorsE@Base 4:14.11.97
  _ZN13AbstractLexer15m_longOperatorsE@Base 4:14.11.97
@@ -208,7 +208,6 @@ libAnalitza.so.7 libanalitza7 #MINVER#
  _ZN8Analitza8Analyzer15alphaConversionEPNS_5ApplyEi@Base 4:14.11.97
  _ZN8Analitza8Analyzer15alphaConversionEPNS_9ContainerEi@Base 4:14.11.97
  (optional=templinst)_ZN8Analitza8Analyzer15alphaConversionINS_6MatrixEN5QListIPNS_9MatrixRowEE8iteratorES4_EEvPT_i@Base 4:14.11.97
- (optional=templinst|arch=!amd64 !armhf !i386)_ZN8Analitza8Analyzer15alphaConversionINS_9MatrixRowEN5QListIPNS_6ObjectEE8iteratorES4_EEvPT_i@Base 4:15.04.0
  _ZN8Analitza8Analyzer15calculateLambdaEv@Base 4:14.11.97
  _ZN8Analitza8Analyzer15initializeBVarsEPKNS_5ApplyEi@Base 4:14.11.97
  _ZN8Analitza8Analyzer15simpPolynomialsEPNS_5ApplyE@Base 4:14.11.97

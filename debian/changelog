@@ -1,15 +1,16 @@
-analitza (4:16.08.1-2~1.gbp83275d) UNRELEASED; urgency=medium
+analitza (4:16.08.3-1~1.gbp2d42d3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @83275d611d3d097640a004ea29ac90b9691d8145 **
+  ** SNAPSHOT build @2d42d372990fcec5b443927f635f219aa97a0f62 **
 
   [ Maximiliano Curia ]
   * Replace dbus-launch with dbus-run-session in tests.
     Thanks to Simon McVittie for reporting (Closes: 835831)
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Update symbols files with the buildds logs.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 26 Oct 2016 09:55:11 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 21:59:20 +0100
 
 analitza (4:16.08.1-1) unstable; urgency=medium
 

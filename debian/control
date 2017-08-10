@@ -15,7 +15,8 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
-               qtdeclarative5-dev (>= 5.4)
+               qtdeclarative5-dev (>= 5.4),
+               qttools5-dev-tools
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/analitza.git
@@ -24,8 +25,11 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/analitza.git
 Package: analitza-common
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: libanalitzaplot4 (<< 4:4.12.90), libanalitzaplot5 (<< 4:4.12.90)
+Replaces: libanalitzaplot4 (<< 4:4.12.90),
+          libanalitzaplot5 (<< 4:4.12.90),
+          ${kde-l10n:all}
 Conflicts: libanalitzaplot4 (<< 4:4.12.90), libanalitzaplot5 (<< 4:4.12.90)
+Breaks: ${kde-l10n:all}
 Description: common files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This
  library is being used by KAlgebra and Cantor and may be used in other
@@ -37,10 +41,10 @@ Package: libanalitza-dev
 Architecture: any
 Section: libdevel
 Conflicts: kalgebra-dev
-Depends: libanalitza7 (= ${binary:Version}),
-         libanalitzagui7 (= ${binary:Version}),
-         libanalitzaplot7 (= ${binary:Version}),
-         libanalitzawidgets7 (= ${binary:Version}),
+Depends: libanalitza8 (= ${binary:Version}),
+         libanalitzagui8 (= ${binary:Version}),
+         libanalitzaplot8 (= ${binary:Version}),
+         libanalitzawidgets8 (= ${binary:Version}),
          qml-module-org-kde-analitza (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
@@ -54,7 +58,7 @@ Description: development files for Analitza
  .
  This package is part of the KDE education module.
 
-Package: libanalitza7
+Package: libanalitza8
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions
@@ -63,7 +67,7 @@ Description: library to work with mathematical expressions
  .
  This package is part of the KDE education module.
 
-Package: libanalitzawidgets7
+Package: libanalitzawidgets8
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions - widgets
@@ -72,7 +76,7 @@ Description: library to work with mathematical expressions - widgets
  .
  This package is part of the KDE education module.
 
-Package: libanalitzagui7
+Package: libanalitzagui8
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions - GUI routines
@@ -82,7 +86,7 @@ Description: library to work with mathematical expressions - GUI routines
  .
  This package is part of the KDE education module.
 
-Package: libanalitzaplot7
+Package: libanalitzaplot8
 Architecture: any
 Depends: analitza-common, ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions - plotting bits

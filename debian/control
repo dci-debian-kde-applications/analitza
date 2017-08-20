@@ -16,7 +16,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
-               qttools5-dev-tools
+               qttools5-dev-tools,
 Standards-Version: 4.0.1
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/analitza.git
@@ -27,7 +27,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Replaces: libanalitzaplot4 (<< 4:4.12.90),
           libanalitzaplot5 (<< 4:4.12.90),
-          ${kde-l10n:all}
+          ${kde-l10n:all},
 Conflicts: libanalitzaplot4 (<< 4:4.12.90), libanalitzaplot5 (<< 4:4.12.90)
 Breaks: ${kde-l10n:all}
 Description: common files for Analitza
@@ -47,7 +47,7 @@ Depends: libanalitza8 (= ${binary:Version}),
          libanalitzawidgets8 (= ${binary:Version}),
          qml-module-org-kde-analitza (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: development files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This
  library is being used by KAlgebra and Cantor and may be used in other
@@ -62,15 +62,6 @@ Package: libanalitza8
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library to work with mathematical expressions
- This library is used by KAlgebra and may be used by other software to parse and
- work with mathematical expressions.
- .
- This package is part of the KDE education module.
-
-Package: libanalitzawidgets8
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: library to work with mathematical expressions - widgets
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions.
  .
@@ -96,6 +87,15 @@ Description: library to work with mathematical expressions - plotting bits
  .
  This package is part of the KDE education module.
 
+Package: libanalitzawidgets8
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library to work with mathematical expressions - widgets
+ This library is used by KAlgebra and may be used by other software to parse and
+ work with mathematical expressions.
+ .
+ This package is part of the KDE education module.
+
 Package: qml-module-org-kde-analitza
 Architecture: any
 Depends: analitza-common,
@@ -103,7 +103,7 @@ Depends: analitza-common,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: library to work with mathematical expressions - QML library
  This library is used by KAlgebra and may be used by other software to parse and
  work with mathematical expressions. This library provides the routines related

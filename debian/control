@@ -111,3 +111,4 @@ Description: library to work with mathematical expressions - QML library
  to plotting.
  .
  This package is part of the KDE education module.
+Breaks: kalgebra-common (<< 4:17.08)

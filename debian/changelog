@@ -5,6 +5,8 @@ analitza (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
   * Remove unused libncurses5-dev, and libreadline-dev build dependencies.
+  * Drop manual kde-l10n-ast breaks/replaces, as it is already covered by the
+    ${kde-l10n:all} substvar.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Dec 2017 19:58:33 +0100
 

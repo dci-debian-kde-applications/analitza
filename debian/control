@@ -23,12 +23,11 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/analitza.git
 Package: analitza-common
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          libanalitzaplot4 (<< 4:4.12.90),
+Replaces: libanalitzaplot4 (<< 4:4.12.90),
           libanalitzaplot5 (<< 4:4.12.90),
           ${kde-l10n:all},
 Conflicts: libanalitzaplot4 (<< 4:4.12.90), libanalitzaplot5 (<< 4:4.12.90)
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~), ${kde-l10n:all}
+Breaks: ${kde-l10n:all}
 Description: common files for Analitza
  Analitza is a library to parse and work with mathematical expressions. This
  library is being used by KAlgebra and Cantor and may be used in other

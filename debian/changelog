@@ -7,7 +7,7 @@ analitza (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove unused libncurses5-dev, and libreadline-dev build dependencies.
   * Drop manual kde-l10n-ast breaks/replaces, as it is already covered by the
     ${kde-l10n:all} substvar.
-  * Add the qttools5-dev build dependency, now required.
+  * Add the qttools5-dev build dependency, now required. (Closes: #883835)
   * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
     drop translations.
 
